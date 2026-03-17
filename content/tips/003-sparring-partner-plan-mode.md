@@ -39,4 +39,4 @@ Mitchell Hashimoto puts it simply: *"For vague requests, split the work into sep
 🔴 No, I go straight to generating code  
 ⚪ I split plan and execute, but not using plan mode
 
-Tried plan mode and want to share what happened?
+_Tried plan mode and want to share what happened?_

@@ -25,4 +25,4 @@ GitHub proposes: *"Instead of asking 'What's wrong with this function?' try 'Why
 
 🔗 [How to debug code with GitHub Copilot](https://github.blog/developer-skills/github/how-to-debug-code-with-github-copilot/)
 
-Got a debugging workflow that works for you?
+_Got a debugging workflow that works for you?_

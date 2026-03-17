@@ -31,4 +31,4 @@ In Copilot CLI, start a new session. In Copilot Chat, open a new thread. The fre
 🔴  Give up and do it manually  
 ⚪  Hasn't happened to me (yet)
 
-How do you know when it's time to start fresh instead of pushing through?
+_How do you know when it's time to start fresh instead of pushing through?_

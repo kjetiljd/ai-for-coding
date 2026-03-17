@@ -32,4 +32,4 @@ Microsoft's Playwright MCP is the other major option (28,000+ stars). However, t
 🔴 Sounds risky, not sure I want that  
 ⚪ Didn't know this was possible
 
-What did/would you point an agent-with-a-browser at first?
+_What did/would you point an agent-with-a-browser at first?_

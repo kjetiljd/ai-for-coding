@@ -27,4 +27,4 @@ In Copilot CLI, the explore subagent is purpose-built for this — it runs in a 
 🔴 I jump in and figure it out as I go  
 ⚪ I mostly work in code I already know
 
-What's a good first question to ask about an unfamiliar codebase?
+_What's a good first question to ask about an unfamiliar codebase?_

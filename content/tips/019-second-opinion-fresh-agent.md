@@ -30,4 +30,4 @@ This works with any tool — another terminal tab, a new Copilot Chat thread, or
 🔴 No — one session at a time  
 ⚪ Interesting idea, haven't tried it
 
-_Have you tried the writer/reviewer pattern or something like it? How did it go?
+_Have you tried the writer/reviewer pattern or something like it? How did it go?_

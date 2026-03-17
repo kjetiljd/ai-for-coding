@@ -31,4 +31,4 @@ And remember: if a CLI tool can do the same job ([Tip #14](/ai-for-coding/tips/0
 🔴 Lost count — maybe too many  
 ⚪ None yet, still figuring it out
 
-Tips for keeping your context lean?
+_Tips for keeping your context lean?_
