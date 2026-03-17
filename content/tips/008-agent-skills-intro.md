@@ -3,7 +3,8 @@ title: "Tip #8: Teach your AI agent repeatable skills"
 date: 2026-03-06
 categories: ["Instruction Files"]
 weight: 8
-summary: ""
+summary: "Package step-by-step procedures as SKILL.md files the agent loads on demand."
+description: "Package step-by-step procedures as SKILL.md files the agent loads on demand."
 ---
 
 Instruction files (Tips [Tip #1](/ai-for-coding/tips/001-copilot-instructions/), [Tip #2](/ai-for-coding/tips/002-every-mistake-is-a-rule/), [Tip #5](/ai-for-coding/tips/005-instruction-files-less-is-more/)) tell the AI how to behave in general. _But what about specific tasks you do repeatedly — deploying, writing release notes, running a particular code review checklist?_

@@ -3,7 +3,8 @@ title: "Tip #15: MCP servers eat your context window"
 date: 2026-03-11
 categories: ["Tools & Integrations"]
 weight: 15
-summary: ""
+summary: "Every connected server costs tokens every turn. Be selective."
+description: "Every connected server costs tokens every turn. Be selective."
 ---
 
 Every MCP server you connect adds tool descriptions to the agent's context — every turn, from the first prompt. Connect five servers and you can lose 30-50% of your context window before you've even asked a question.

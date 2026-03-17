@@ -3,7 +3,8 @@ title: "Tip #1: Give Copilot a memory"
 date: 2026-02-19
 categories: ["Instruction Files"]
 weight: 1
-summary: ""
+summary: "Set up an instruction file so the agent knows your conventions from the start."
+description: "Set up an instruction file so the agent knows your conventions from the start."
 ---
 
 Every time you start a Copilot session, it knows nothing about your project. Your conventions, your architecture decisions, your "please don't touch that module" — all gone. You repeat yourself. Every. Single. Time.

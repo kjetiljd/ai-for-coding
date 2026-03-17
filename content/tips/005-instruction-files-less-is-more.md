@@ -3,7 +3,8 @@ title: "Tip #5: What actually belongs in your instruction file?"
 date: 2026-02-26
 categories: ["Instruction Files"]
 weight: 5
-summary: ""
+summary: "Less is more: hand-written, non-obvious rules beat auto-generated descriptions."
+description: "Less is more: hand-written, non-obvious rules beat auto-generated descriptions."
 ---
 
 Tips [Tip #1](/ai-for-coding/tips/001-copilot-instructions/) and [Tip #2](/ai-for-coding/tips/002-every-mistake-is-a-rule/) covered setting up `copilot-instructions.md` (or `AGENTS.md`) and growing it over time. But can it grow **too much**?

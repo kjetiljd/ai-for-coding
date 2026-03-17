@@ -3,7 +3,8 @@ title: "Tip #9: Where to put your skills (and where they'll actually be found)"
 date: 2026-03-06
 categories: ["Instruction Files"]
 weight: 9
-summary: ""
+summary: "Project skills vs. personal skills, and how the agent discovers them."
+description: "Project skills vs. personal skills, and how the agent discovers them."
 ---
 
 You've written a SKILL.md ([Tip #8](/ai-for-coding/tips/008-agent-skills-intro/)). Now where do you put it?

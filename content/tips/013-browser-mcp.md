@@ -3,7 +3,8 @@ title: "Tip #13: Give your agent a browser"
 date: 2026-03-10
 categories: ["Tools & Integrations"]
 weight: 13
-summary: ""
+summary: "Chrome DevTools MCP lets the agent click, inspect, and test web UIs from your terminal."
+description: "Chrome DevTools MCP lets the agent click, inspect, and test web UIs from your terminal."
 ---
 
 One of the most practical MCP servers gives your agent what it's been missing: a browser.

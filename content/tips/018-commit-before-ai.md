@@ -3,7 +3,8 @@ title: "Tip #18: Commit before you let the agent loose"
 date: 2026-03-14
 categories: ["Workflow Patterns"]
 weight: 18
-summary: ""
+summary: "Git stash or commit first, so the agent's changes are always one git diff away from a clean state."
+description: "Git stash or commit first, so the agent's changes are always one git diff away from a clean state."
 ---
 
 A habit that pays for itself immediately: **commit (or stash) before asking the agent to make changes.**

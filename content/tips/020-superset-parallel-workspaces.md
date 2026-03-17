@@ -3,7 +3,8 @@ title: "Tip #20: Give your agents their own workspaces"
 date: 2026-03-17
 categories: ["Workflow Patterns"]
 weight: 20
-summary: ""
+summary: "Use isolated workspaces so multiple agents can work on the same repo without stepping on each other."
+description: "Use isolated workspaces so multiple agents can work on the same repo without stepping on each other."
 ---
 
 _[Tip #19](/ai-for-coding/tips/019-second-opinion-fresh-agent/)_ _covered using fresh agent sessions for second opinions. But what if you want multiple agents working at the same time — on different tasks, in the same repo? That's an orchestration problem._

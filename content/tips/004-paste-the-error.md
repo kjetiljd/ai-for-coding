@@ -3,7 +3,8 @@ title: "Tip #4: Paste the error, get the explanation"
 date: 2026-02-24
 categories: ["AI for Debugging & Ops"]
 weight: 4
-summary: ""
+summary: "Don't Google cryptic errors. Paste them into chat and ask for the explanation first."
+description: "Don't Google cryptic errors. Paste them into chat and ask for the explanation first."
 ---
 
 When you hit a cryptic error message, don't Google it. Paste it into your Copilot chat.

@@ -3,7 +3,8 @@ title: "Tip #2: Every AI mistake is a rule"
 date: 2026-02-20
 categories: ["Instruction Files"]
 weight: 2
-summary: ""
+summary: "When Copilot gets something wrong, add it to your instructions instead of just fixing it."
+description: "When Copilot gets something wrong, add it to your instructions instead of just fixing it."
 ---
 
 Copilot just generated code that ignores your team's conventions. You sigh, fix it manually, move on.

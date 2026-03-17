@@ -3,7 +3,8 @@ title: "Tip #3: Use Copilot as a sparring partner"
 date: 2026-02-23
 categories: ["Workflow Patterns"]
 weight: 3
-summary: ""
+summary: "Think together before writing code — use plan mode to explore approach and tradeoffs."
+description: "Think together before writing code — use plan mode to explore approach and tradeoffs."
 ---
 
 Most people use Copilot to generate code. That's fine. But there's a powerful mode that some developers skip: **thinking together before writing a single line.**

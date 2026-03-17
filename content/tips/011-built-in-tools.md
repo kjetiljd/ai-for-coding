@@ -3,7 +3,8 @@ title: "Tip #11: What your agent already knows how to do"
 date: 2026-03-09
 categories: ["Tools & Integrations"]
 weight: 11
-summary: ""
+summary: "Built-in tools for file editing, search, shell commands, and GitHub — no setup needed."
+description: "Built-in tools for file editing, search, shell commands, and GitHub — no setup needed."
 ---
 
 Before you install anything extra, your coding agent already comes with tools. Copilot CLI ([Tip #6](/ai-for-coding/tips/006-copilot-cli/)) ships with built-in tools for reading files, editing code, searching your codebase (grep, glob), and running shell commands. It can also delegate to subagents — spinning up separate context windows for exploration, code review, or long-running tasks like test suites.

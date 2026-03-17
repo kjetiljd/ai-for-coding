@@ -3,7 +3,8 @@ title: "Tip #12: MCP — the USB-C of AI tools"
 date: 2026-03-10
 categories: ["Tools & Integrations"]
 weight: 12
-summary: ""
+summary: "One open standard for connecting agents to external systems across all tools."
+description: "One open standard for connecting agents to external systems across all tools."
 ---
 
 Model Context Protocol (MCP) is an open standard for connecting AI agents to external systems. Think of it as USB-C for AI: one standard plug, many devices.

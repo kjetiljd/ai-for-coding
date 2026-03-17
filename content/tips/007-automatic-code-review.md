@@ -3,7 +3,8 @@ title: "Tip #7: Let Copilot review every PR — automatically"
 date: 2026-03-06
 categories: ["Getting Started with GitHub Copilot"]
 weight: 7
-summary: ""
+summary: "Set up branch rulesets so Copilot reviews pull requests without anyone asking."
+description: "Set up branch rulesets so Copilot reviews pull requests without anyone asking."
 ---
 
 You can set up GitHub Copilot to automatically review your pull requests. You need a branch ruleset: go to your repo's Settings → Rules → Rulesets, create a new branch ruleset, and check "Automatically request Copilot code review." Pick which branches to target (default branch, all branches, or a pattern).

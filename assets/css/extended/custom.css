@@ -1,5 +1,622 @@
-/* Reduce oversized hero section on homepage */
-.first-entry {
-  min-height: auto;
-  margin-bottom: 16px;
+/* ==========================================================================
+   AI for Coding — "Warm Terminal Dispatch" theme
+   Aesthetic: editorial zine + phosphor terminal warmth
+   Fonts: Young Serif / Crimson Pro / Azeret Mono
+   ========================================================================== */
+
+/* --- CSS Custom Properties ------------------------------------------------ */
+:root {
+  --font-display: 'Young Serif', Georgia, serif;
+  --font-body: 'Crimson Pro', 'Georgia', serif;
+  --font-mono: 'Azeret Mono', 'Menlo', monospace;
+
+  /* Warm dark palette */
+  --bg-deep: #0f0e0c;
+  --bg-surface: #171613;
+  --bg-raised: #1f1d19;
+  --bg-hover: #282520;
+
+  --text-primary: #e4ddd0;
+  --text-secondary: #a69e8e;
+  --text-muted: #6b6358;
+
+  --accent: #e89b3e;
+  --accent-glow: #f0a50033;
+  --accent-bright: #f5c542;
+  --accent-green: #6bcf8e;
+  --accent-red: #e06c5f;
+  --accent-yellow: #e8c84a;
+
+  --border: #2a2622;
+  --border-strong: #3d3830;
+
+  --radius: 6px;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- Force dark mode (override PaperMod theme toggle) -------------------- */
+body {
+  background: var(--bg-deep) !important;
+  color: var(--text-primary) !important;
+  font-family: var(--font-body) !important;
+  font-size: 19px !important;
+  line-height: 1.72 !important;
+  font-weight: 350;
+  letter-spacing: 0.005em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle noise texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+}
+
+/* Override PaperMod theme variables */
+.dark, body[class] {
+  --theme: var(--bg-deep);
+  --entry: var(--bg-surface);
+  --primary: var(--text-primary);
+  --secondary: var(--text-secondary);
+  --tertiary: var(--border);
+  --content: var(--text-primary);
+  --border: var(--border);
+  --code-bg: var(--bg-raised);
+}
+
+/* --- Header / Nav -------------------------------------------------------- */
+.header {
+  background: var(--bg-deep) !important;
+  border-bottom: 1px solid var(--border) !important;
+}
+
+.header .logo a {
+  font-family: var(--font-display) !important;
+  font-size: 1.2rem !important;
+  color: var(--accent) !important;
+  letter-spacing: 0.02em;
+}
+
+.header .logo a::before {
+  content: none;
+}
+
+#menu a {
+  font-family: var(--font-mono) !important;
+  font-size: 0.78rem !important;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary) !important;
+  transition: color var(--transition);
+}
+
+#menu a:hover,
+#menu .active {
+  color: var(--accent) !important;
+}
+
+/* --- Homepage Hero ------------------------------------------------------- */
+.first-entry.home-info {
+  min-height: auto !important;
+  margin-bottom: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  padding: 4rem 0 2.5rem !important;
+  border-bottom: 2px solid var(--accent) !important;
+  border-radius: 0 !important;
+}
+
+.home-info .entry-header h1 {
+  font-family: var(--font-display) !important;
+  font-size: clamp(2rem, 5vw, 3.2rem) !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 0.4em;
+  line-height: 1.15;
+}
+
+.home-info .entry-content {
+  font-family: var(--font-body) !important;
+  font-size: 1.15rem !important;
+  color: var(--text-secondary) !important;
+  font-style: italic;
+  max-width: 38em;
+}
+
+/* --- Tip List (Index & Home) --------------------------------------------- */
+.post-entry {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+  padding: 1.6rem 0 !important;
+  margin: 0 !important;
+  transition: background var(--transition), border-color var(--transition);
+  position: relative;
+}
+
+.post-entry:hover {
+  background: var(--bg-surface) !important;
+  border-color: var(--border-strong) !important;
+}
+
+.post-entry .entry-header h2 {
+  font-family: var(--font-display) !important;
+  font-size: 1.35rem !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 0.3em;
+  line-height: 1.3;
+  transition: color var(--transition);
+}
+
+.post-entry:hover .entry-header h2 {
+  color: var(--accent) !important;
+}
+
+.post-entry .entry-content {
+  font-family: var(--font-body) !important;
+  color: var(--text-secondary) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+}
+
+.entry-footer {
+  font-family: var(--font-mono) !important;
+  font-size: 0.75rem !important;
+  color: var(--text-muted) !important;
+}
+
+/* --- Single Tip Page ----------------------------------------------------- */
+.post-single {
+  overflow: visible;
+}
+
+.post-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--accent);
+  position: relative;
+}
+
+.post-title {
+  font-family: var(--font-display) !important;
+  font-size: clamp(1.6rem, 4.5vw, 2.6rem) !important;
+  color: var(--text-primary) !important;
+  line-height: 1.2 !important;
+  margin-bottom: 0.3em;
+}
+
+.post-description {
+  font-family: var(--font-body) !important;
+  font-size: 1.2rem !important;
+  font-style: italic;
+  color: var(--accent) !important;
+  line-height: 1.5;
+  margin-bottom: 0.6em;
+  opacity: 0.92;
+}
+
+.post-meta {
+  font-family: var(--font-mono) !important;
+  font-size: 0.78rem !important;
+  color: var(--text-muted) !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* Tip number watermark */
+.tip-watermark {
+  position: absolute;
+  top: -0.15em;
+  right: -0.1em;
+  font-family: var(--font-display);
+  font-size: clamp(8rem, 20vw, 14rem);
+  line-height: 1;
+  color: var(--accent);
+  opacity: 0.045;
+  pointer-events: none;
+  z-index: 0;
+  user-select: none;
+}
+
+/* --- Content Typography -------------------------------------------------- */
+.post-content {
+  position: relative;
+  z-index: 1;
+}
+
+.post-content p {
+  font-family: var(--font-body) !important;
+  font-size: 1.15rem !important;
+  line-height: 1.78 !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 1.2em;
+}
+
+.post-content strong {
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+
+.post-content em {
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.post-content h2, .post-content h3 {
+  font-family: var(--font-display) !important;
+  color: var(--text-primary) !important;
+  margin-top: 2em;
+  margin-bottom: 0.6em;
+}
+
+.post-content a {
+  color: var(--accent) !important;
+  text-decoration: none !important;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size var(--transition), color var(--transition);
+  padding-bottom: 1px;
+}
+
+.post-content a:hover {
+  color: var(--accent-bright) !important;
+  background-size: 100% 1px;
+}
+
+/* Code / Monospace */
+.post-content code {
+  font-family: var(--font-mono) !important;
+  font-size: 0.85em !important;
+  background: var(--bg-raised) !important;
+  color: var(--accent) !important;
+  padding: 0.15em 0.45em;
+  border-radius: 3px;
+  border: 1px solid var(--border);
+}
+
+.post-content pre {
+  background: var(--bg-surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius);
+  padding: 1.2em !important;
+  overflow-x: auto;
+}
+
+.post-content pre code {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: var(--text-primary) !important;
+  font-size: 0.82em !important;
+}
+
+/* Lists */
+.post-content ul, .post-content ol {
+  padding-left: 1.4em;
+  margin-bottom: 1.2em;
+}
+
+.post-content li {
+  font-family: var(--font-body) !important;
+  font-size: 1.15rem !important;
+  line-height: 1.7;
+  margin-bottom: 0.4em;
+  color: var(--text-primary) !important;
+}
+
+.post-content li::marker {
+  color: var(--accent);
+}
+
+/* Blockquotes */
+.post-content blockquote {
+  border-left: 3px solid var(--accent) !important;
+  background: var(--bg-surface);
+  padding: 1em 1.4em !important;
+  margin: 1.5em 0;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.post-content blockquote p {
+  color: var(--text-secondary) !important;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* --- Horizontal rule (poll separator) ------------------------------------ */
+.post-content hr {
+  border: none !important;
+  height: 1px;
+  background: linear-gradient(90deg, var(--accent) 0%, var(--border) 50%, transparent 100%) !important;
+  margin: 2.5rem 0 1.8rem !important;
+  opacity: 0.7;
+}
+
+/* --- Poll Section Styling ------------------------------------------------ */
+/* Poll question (bold text after hr) */
+.post-content hr + p strong,
+.post-content hr + p {
+  font-family: var(--font-display) !important;
+  font-size: 1.1rem !important;
+  color: var(--text-secondary) !important;
+}
+
+/* Poll options — lines starting with emoji circles */
+.post-content p:has(br) {
+  line-height: 2.2 !important;
+}
+
+/* --- Link section (🔗) --------------------------------------------------- */
+/* Reference links get a subtle treatment */
+
+/* --- Prev/Next Navigation ------------------------------------------------ */
+.paginav {
+  border-top: none !important;
+  margin-top: 3rem;
+  padding-top: 0;
+  gap: 0;
+  display: flex !important;
+}
+
+/* When only one link exists, let it take full width */
+.paginav a:only-child {
+  flex: 1;
+}
+
+.paginav a {
+  flex: 1;
+  background: transparent !important;
+  border: none !important;
+  border-top: 1px solid var(--border) !important;
+  border-radius: 0 !important;
+  padding: 1.4em 1.2em !important;
+  transition: background var(--transition), border-color var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.paginav a.prev {
+  border-right: 1px solid var(--border) !important;
+}
+
+.paginav a:hover {
+  background: var(--bg-surface) !important;
+  border-top-color: var(--accent) !important;
+}
+
+.paginav .title {
+  font-family: var(--font-mono) !important;
+  font-size: 0.7rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted) !important;
+}
+
+.paginav a:hover .title {
+  color: var(--accent) !important;
+}
+
+.paginav a span:last-child {
+  font-family: var(--font-display) !important;
+  font-size: 1.05rem !important;
+  color: var(--text-primary) !important;
+  line-height: 1.35;
+  transition: color var(--transition);
+}
+
+.paginav a:hover span:last-child {
+  color: var(--accent) !important;
+}
+
+/* --- Breadcrumbs --------------------------------------------------------- */
+.breadcrumbs {
+  font-family: var(--font-mono) !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted) !important;
+  margin-bottom: 0.8rem;
+}
+
+.breadcrumbs a {
+  color: var(--text-muted) !important;
+  transition: color var(--transition);
+}
+
+.breadcrumbs a:hover {
+  color: var(--accent) !important;
+}
+
+/* --- Categories / Tags --------------------------------------------------- */
+.post-tags a {
+  font-family: var(--font-mono) !important;
+  font-size: 0.72rem !important;
+  background: var(--bg-raised) !important;
+  color: var(--text-secondary) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 3px !important;
+  padding: 0.25em 0.65em !important;
+  transition: all var(--transition);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.post-tags a:hover {
+  background: var(--accent) !important;
+  color: var(--bg-deep) !important;
+  border-color: var(--accent) !important;
+}
+
+/* Section page headers */
+.page-header h1 {
+  font-family: var(--font-display) !important;
+  font-size: 2rem !important;
+  color: var(--text-primary) !important;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.5em;
+}
+
+/* Category/term entries */
+.tag-entry {
+  border-left: 3px solid var(--accent) !important;
+  padding-left: 1em !important;
+}
+
+/* --- Footer -------------------------------------------------------------- */
+.footer {
+  border-top: 1px solid var(--border) !important;
+  color: var(--text-muted) !important;
+  font-family: var(--font-mono) !important;
+  font-size: 0.72rem !important;
+  letter-spacing: 0.04em;
+}
+
+/* --- Scroll-triggered Animations ----------------------------------------- */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.reveal-on-scroll.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Page load animation for header */
+.post-header {
+  animation: slideDown 0.6s ease-out both;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Home hero entrance */
+.home-info {
+  animation: fadeIn 0.8s ease-out both;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Watermark float animation */
+.tip-watermark {
+  animation: watermarkIn 1s ease-out both;
+  animation-delay: 0.3s;
+}
+
+@keyframes watermarkIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 0.045;
+    transform: scale(1);
+  }
+}
+
+/* --- Theme Toggle Override ----------------------------------------------- */
+#theme-toggle {
+  color: var(--text-muted) !important;
+}
+
+#theme-toggle:hover {
+  color: var(--accent) !important;
+}
+
+/* --- Scrollbar ----------------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+/* --- Selection ----------------------------------------------------------- */
+::selection {
+  background: var(--accent);
+  color: var(--bg-deep);
+}
+
+/* --- Responsive ---------------------------------------------------------- */
+@media (max-width: 768px) {
+  body {
+    font-size: 17px !important;
+  }
+
+  .post-title {
+    font-size: 1.5rem !important;
+  }
+
+  .tip-watermark {
+    font-size: 6rem !important;
+    top: 0;
+    right: -0.05em;
+  }
+
+  .first-entry.home-info {
+    padding: 2.5rem 0 1.5rem !important;
+  }
+
+  .paginav a {
+    padding: 1em 0.8em !important;
+  }
+
+  .paginav a.prev {
+    border-right: none !important;
+    border-bottom: 1px solid var(--border) !important;
+  }
+
+  .paginav {
+    flex-direction: column !important;
+  }
+}
+
+/* --- Print --------------------------------------------------------------- */
+@media print {
+  .tip-watermark,
+  body::before,
+  .header,
+  .footer,
+  .paginav,
+  #theme-toggle {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: #1a1a1a !important;
+  }
 }

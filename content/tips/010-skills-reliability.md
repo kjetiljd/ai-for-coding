@@ -3,7 +3,8 @@ title: "Tip #10: Why your skills might not be triggering"
 date: 2026-03-06
 categories: ["Instruction Files"]
 weight: 10
-summary: ""
+summary: "The agent often ignores skills unless you tell it to look for them first."
+description: "The agent often ignores skills unless you tell it to look for them first."
 ---
 
 You wrote a skill ([Tip #8](/ai-for-coding/tips/008-agent-skills-intro/)), placed it right ([Tip #9](/ai-for-coding/tips/009-skill-placement/)), but the agent doesn't use it. You're not alone.

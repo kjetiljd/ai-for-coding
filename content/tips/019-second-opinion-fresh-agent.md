@@ -3,7 +3,8 @@ title: "Tip #19: Get a second opinion from a fresh agent"
 date: 2026-03-16
 categories: ["Workflow Patterns"]
 weight: 19
-summary: ""
+summary: "Open a second session to re-ask the same question without baggage from earlier attempts."
+description: "Open a second session to re-ask the same question without baggage from earlier attempts."
 ---
 
 When you've been going back and forth on a tricky problem, the agent is anchored — its context is full of earlier (possibly wrong) attempts. Hard to think fresh.

@@ -3,7 +3,8 @@ title: "Tip #16: Explore before you edit"
 date: 2026-03-13
 categories: ["Workflow Patterns"]
 weight: 16
-summary: ""
+summary: "Use the agent as a research assistant to understand unfamiliar code before changing anything."
+description: "Use the agent as a research assistant to understand unfamiliar code before changing anything."
 ---
 
 Jumping into unfamiliar code? Before you change anything, use the agent as a research assistant.

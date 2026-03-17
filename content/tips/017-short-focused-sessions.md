@@ -3,7 +3,8 @@ title: "Tip #17: Keep sessions short and focused"
 date: 2026-03-13
 categories: ["Workflow Patterns"]
 weight: 17
-summary: ""
+summary: "One task per session. Context fills up — fresh starts beat accumulated corrections."
+description: "One task per session. Context fills up — fresh starts beat accumulated corrections."
 ---
 
 AI agents have a context window, the fuller it gets, the worse the agent performs.

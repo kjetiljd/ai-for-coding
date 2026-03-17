@@ -3,7 +3,8 @@ title: "Tip #14: Your CLI tools are already AI tools"
 date: 2026-03-11
 categories: ["Tools & Integrations"]
 weight: 14
-summary: ""
+summary: "gh, git, jq, curl work without MCP — the agent just calls --help."
+description: "gh, git, jq, curl work without MCP — the agent just calls --help."
 ---
 
 Here's a pattern worth noticing: your agent can use `gh`, `git`, `jq`, `curl`, `rg`, and `make` — tools already on your machine — without any MCP server, config, or setup.

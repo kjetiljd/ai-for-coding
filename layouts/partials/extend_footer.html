@@ -1,0 +1,35 @@
+{{- /* Scroll-triggered entrance animations */ -}}
+<script>
+(function() {
+  // Staggered reveal on page load
+  const entries = document.querySelectorAll('.post-entry, .post-content > *, .post-header');
+  const observer = new IntersectionObserver((items) => {
+    items.forEach((item, i) => {
+      if (item.isIntersecting) {
+        item.target.style.animationDelay = (i * 0.04) + 's';
+        item.target.classList.add('revealed');
+        observer.unobserve(item.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  entries.forEach(el => {
+    el.classList.add('reveal-on-scroll');
+    observer.observe(el);
+  });
+
+  // Tip number watermark: extract number from title
+  const title = document.querySelector('.post-title');
+  if (title && title.textContent.match(/Tip\s*#(\d+)/)) {
+    const num = title.textContent.match(/Tip\s*#(\d+)/)[1];
+    const watermark = document.createElement('div');
+    watermark.className = 'tip-watermark';
+    watermark.textContent = num;
+    const article = document.querySelector('.post-single');
+    if (article) {
+      article.style.position = 'relative';
+      article.insertBefore(watermark, article.firstChild);
+    }
+  }
+})();
+</script>

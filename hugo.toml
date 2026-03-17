@@ -14,7 +14,8 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  defaultTheme = 'auto'
+  defaultTheme = 'dark'
+  disableThemeToggle = true
   [params.homeInfoParams]
     Title = '💻✨ AI for Coding'
     Content = 'Short, actionable tips to help developers get more value from AI coding tools. Originally shared as an internal Slack series.'

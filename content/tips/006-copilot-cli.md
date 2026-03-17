@@ -3,7 +3,8 @@ title: "Tip #6: Your terminal just got an AI agent"
 date: 2026-02-26
 categories: ["Getting Started with GitHub Copilot"]
 weight: 6
-summary: ""
+summary: "Copilot CLI brings agentic coding to your terminal — reads files, runs commands, makes changes."
+description: "Copilot CLI brings agentic coding to your terminal — reads files, runs commands, makes changes."
 ---
 
 A year ago, Boris Cherny at Anthropic released **Claude Code** internally — a terminal-based AI agent that doesn't just suggest code, but reads files, runs commands, and makes changes across your project. Boris claims the terminal UI (Text UI - TUI) agent pattern is here to stay.
