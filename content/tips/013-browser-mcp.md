@@ -22,7 +22,6 @@ Microsoft's Playwright MCP is the other major option (28,000+ stars). However, t
 🔗 [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)  
 🔗 [Playwright CLI](https://github.com/microsoft/playwright-cli)
 
-
 ---
 
 **Have you given your coding agent proper browser access?**

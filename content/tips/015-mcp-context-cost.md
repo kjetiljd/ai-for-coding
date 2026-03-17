@@ -21,7 +21,6 @@ And remember: if a CLI tool can do the same job ([Tip #14](/ai-for-coding/tips/0
 🔗 [Claude Code Tool Search](https://docs.anthropic.com/en/docs/claude-code/changelog) (search "ToolSearch")  
 🔗 [GitHub docs on MCP toolsets](https://docs.github.com/en/copilot/concepts/context/mcp#toolset-customization)
 
-
 ---
 
 **How many MCP servers do you have connected?**

@@ -17,7 +17,6 @@ In Copilot CLI, the explore subagent is purpose-built for this — it runs in a 
 💡Try this: Next time you are going to do changes in unfamiliar code, spend 5 minutes asking the agent questions about the codebase before you make any changes.
 🔗 How Copilot understands your codebase (VS Code docs)
 
-
 ---
 
 **How do you approach unfamiliar code?**

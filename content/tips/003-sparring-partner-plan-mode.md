@@ -29,7 +29,6 @@ Mitchell Hashimoto puts it simply: *"For vague requests, split the work into sep
 
 💡 Try this: On your next task, start in Plan mode. See what it surfaces before you commit to an approach.
 
-
 ---
 
 **Have you tried plan mode before coding?**

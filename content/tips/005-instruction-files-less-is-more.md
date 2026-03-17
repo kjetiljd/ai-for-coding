@@ -18,7 +18,6 @@ A useful filter to try: before adding a rule, ask yourself — would the AI figu
 
 🔗 [Addy Osmani's write-up with links to both studies](https://addyosmani.com/blog/agents-md/)
 
-
 ---
 
 **Tried pruning your instruction file(s)?**

@@ -21,11 +21,9 @@ In Copilot CLI, start a new session. In Copilot Chat, open a new thread. The fre
 💡 Try this: Next time things go sideways, start a fresh session and restate the problem from scratch rather than adding more corrections.
 🔗 Manage context aggressively (from Claude Code best practices)
 
-
 ---
 
 **How do you handle sessions that go off the rails?**
-
 
 🟢  Start fresh — new session, better prompt  
 🟡  I tend to keep pushing — usually works eventually  

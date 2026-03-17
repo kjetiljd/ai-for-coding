@@ -27,7 +27,6 @@ DORA 2025 calls these files "an important source of team norms and practices." T
 
 🔗 [Tip #1](/ai-for-coding/tips/001-copilot-instructions/)
 
-
 ---
 
 **How often do you update your instruction file(s)?**

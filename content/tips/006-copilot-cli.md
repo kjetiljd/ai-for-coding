@@ -23,7 +23,6 @@ The shift from "AI suggests a line" to "AI works on a task" is the big one. Term
 🔗 [Install](https://docs.github.com/en/copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli)  
 🔗 [Docs](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)
 
-
 ---
 
 **Have you tried a terminal-based AI agent?**

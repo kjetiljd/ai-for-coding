@@ -22,7 +22,6 @@ The DNA team (Finland) have made this mandatory on all PRs — freeing human rev
 
 🔗 Setup guide: Configuring Automatic Code Review for a Single Repository
 
-
 ---
 
 **What is your experience with Github Copilot code reviews?**
