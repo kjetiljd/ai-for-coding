@@ -17,7 +17,7 @@ It's agent-agnostic — Copilot CLI, Claude Code, whatever CLI agent you have.
 The workflow: give three agents three different tasks, let them run in parallel, review each result separately, merge what's good. What used to be a manual juggling act becomes a dashboard.
 
 💡 Try this: Check out superset.sh if you're running multiple agents. Or try the pattern manually: `git worktree add ../my-feature feature-branch` gives an agent its own isolated copy of the repo.
-🔗 [superset.sh](https://superset.sh/) - Superset — parallel agent workspaces>
+🔗 [superset.sh](https://superset.sh/) — Superset: parallel agent workspaces
 
 _Where does your coding agent live?_  
 
