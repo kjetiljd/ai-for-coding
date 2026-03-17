@@ -25,7 +25,7 @@ Keep it short — 30-50 lines beats a 500-line wall of text. Think of it as onbo
 
 ---
 
-Does your team have a copilot-instructions.md yet?
+Does your team have a copilot-instructions.md yet?  
 🟢 Yes, and we maintain it  
 🟡 Yes, but it's not maintained  
 🔴 Nope, not yet  

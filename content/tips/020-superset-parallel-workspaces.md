@@ -19,7 +19,7 @@ The workflow: give three agents three different tasks, let them run in parallel,
 💡 Try this: Check out superset.sh if you're running multiple agents. Or try the pattern manually: `git worktree add ../my-feature feature-branch` gives an agent its own isolated copy of the repo.
 🔗 [superset.sh](https://superset.sh/) - Superset — parallel agent workspaces>
 
-_Where does your coding agent live?_
+_Where does your coding agent live?_  
 
 ---
 

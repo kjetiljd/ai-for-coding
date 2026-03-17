@@ -26,7 +26,7 @@ Save your game before the boss fight.
 
 🔗 [Review AI-generated code edits (VS Code docs)](https://code.visualstudio.com/docs/copilot/chat/review-code-edits)
 
-_Do you create a checkpoint before AI-assisted changes?_
+_Do you create a checkpoint before AI-assisted changes?_  
 
 ---
 

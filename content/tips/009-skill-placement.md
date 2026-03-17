@@ -26,7 +26,7 @@ Org/enterprise-level skills? GitHub says "coming soon." Claude Code supports it 
 
 💡 Try this: Run `/skills list` in Copilot CLI to see what skills are already discovered in your project.
 
-🔗 Copilot CLI skill paths: [https://docs.github.com/en/copilot/concepts/agents/about-agent-skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)
+🔗 Copilot CLI skill paths: [https://docs.github.com/en/copilot/concepts/agents/about-agent-skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)  
 🔗 Open standard: [https://agentskills.io/specification](https://agentskills.io/specification)
 
 

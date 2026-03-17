@@ -18,13 +18,13 @@ And remember: if a CLI tool can do the same job (Tip #14), it costs zero context
 
 💡 Try this: Run `/context` in Copilot CLI. How much of your budget is tool descriptions vs. actual conversation?
 
-🔗 Claude Code Tool Search: https://docs.anthropic.com/en/docs/claude-code/changelog (search "ToolSearch")
+🔗 Claude Code Tool Search: https://docs.anthropic.com/en/docs/claude-code/changelog (search "ToolSearch")  
 🔗 GitHub docs on MCP toolsets: https://docs.github.com/en/copilot/concepts/context/mcp#toolset-customization
 
 
 ---
 
-How many MCP servers do you have connected?
+How many MCP servers do you have connected?  
 🟢 Just the GitHub one  
 🟡 2-3 carefully chosen  
 🔴 Lost count — maybe too many  
