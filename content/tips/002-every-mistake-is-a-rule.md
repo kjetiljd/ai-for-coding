@@ -34,4 +34,4 @@ How often do you update your instruction file(s)?
 🟢 Regularly — it's part of our workflow  
 🟡 Sometimes, when I remember  
 🔴 I have one but haven't updated it  
-⚪ Starting from scratch after this tip (edited)
+⚪ Starting from scratch after this tip

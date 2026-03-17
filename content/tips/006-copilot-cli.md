@@ -32,4 +32,4 @@ Have you tried a terminal-based AI agent?
 🔴 Not yet, but curious  
 ⚪ I prefer staying in the IDE
 
-_What's been your experience?_ _🧵_
+_What's been your experience?_

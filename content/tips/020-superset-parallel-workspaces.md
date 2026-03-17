@@ -28,4 +28,4 @@ _Where does your coding agent live?_
 🔴 Chat pane in my IDE (Copilot Chat, Cursor, etc.)  
 ⚪ Web only (ChatGPT, [Claude.ai](http://Claude.ai), etc.)
 
-_What's your setup — one agent at a time, or multiple in parallel?_ _🧵_
+_What's your setup — one agent at a time, or multiple in parallel?_

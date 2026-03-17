@@ -18,7 +18,4 @@ The practical takeaway: use skills for **tasks you invoke explicitly** — deplo
 
 🔗 Vercel's full analysis: https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
 
-
----
-
-Experienced skills not triggering? Found a workaround? 🧵
+Experienced skills not triggering? Found a workaround?

@@ -29,4 +29,4 @@ _Do you ever use multiple agent sessions in parallel?_
 🔴 No — one session at a time  
 ⚪ Interesting idea, haven't tried it
 
-_Have you tried the writer/reviewer pattern or something like it? How did it go? 🧵_
+_Have you tried the writer/reviewer pattern or something like it? How did it go?

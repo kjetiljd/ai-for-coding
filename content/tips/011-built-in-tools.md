@@ -27,6 +27,6 @@ _How much of the built-in toolset have you seen being used?_
 🟢 The works — edits, web stuff, shell, subagents, planning, GitHub MCP ...  
 🟡 Some — mostly file edits and shell commands  
 🔴 Barely scratched the surface  
-⚪ I don't use Copilot CLI, but my agent uses similar tools (anything cool? share in 🧵 !)
+⚪ I don't use Copilot CLI, but my agent uses similar tools
 
-_What built-in tool surprised you the most? Positively or negatively?__🧵_
+_What built-in tool surprised you the most? Positively or negatively?_

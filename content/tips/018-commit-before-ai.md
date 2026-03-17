@@ -35,4 +35,4 @@ _Do you create a checkpoint before AI-assisted changes?_
 🔴 No — I rely on undo / inline diffs  
 ⚪ I mostly use chat, not agent mode
 
-_Any git tricks that work well with AI workflows? Share in 🧵_
+_Any git tricks that work well with AI workflows?_

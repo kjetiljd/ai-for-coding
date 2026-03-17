@@ -31,4 +31,4 @@ What is your experience with Github Copilot code reviews?
 🔴 We haven't looked at this yet  
 ⚪ This is not applicable to our work
 
-Tried this already? What's been your experience — useful signal or just noise? 🧵
+Tried this already? What's been your experience — useful signal or just noise?

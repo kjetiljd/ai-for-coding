@@ -26,4 +26,4 @@ How do you approach unfamiliar code?
 🔴 I jump in and figure it out as I go  
 ⚪ I mostly work in code I already know
 
-What's a good first question to ask about an unfamiliar codebase? 🧵
+What's a good first question to ask about an unfamiliar codebase?

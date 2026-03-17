@@ -29,4 +29,4 @@ _How's your MCP journey?_
 🔴 Tried it, ran into issues  
 ⚪ First time hearing about this
 
-_Using any MCP servers beyond the GitHub one? Which ones?_ _🧵_ (edited)
+_Using any MCP servers beyond the GitHub one? Which ones?_

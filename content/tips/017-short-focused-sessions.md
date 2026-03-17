@@ -31,4 +31,4 @@ How do you handle sessions that go off the rails?
 🔴  Give up and do it manually  
 ⚪  Hasn't happened to me (yet)
 
-How do you know when it's time to start fresh instead of pushing through? 🧵
+How do you know when it's time to start fresh instead of pushing through?

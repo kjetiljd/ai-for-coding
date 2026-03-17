@@ -38,4 +38,4 @@ Have you tried plan mode before coding?
 🔴 No, I go straight to generating code  
 ⚪ I split plan and execute, but not using plan mode
 
-Tried plan mode and want to share what happened? We want to hear it 🧵
+Tried plan mode and want to share what happened?

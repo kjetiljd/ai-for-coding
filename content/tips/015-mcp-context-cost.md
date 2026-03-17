@@ -30,4 +30,4 @@ How many MCP servers do you have connected?
 🔴 Lost count — maybe too many  
 ⚪ None yet, still figuring it out
 
-Tips for keeping your context lean? 🧵
+Tips for keeping your context lean?

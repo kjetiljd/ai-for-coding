@@ -31,4 +31,4 @@ Have you given your coding agent proper browser access?
 🔴 Sounds risky, not sure I want that  
 ⚪ Didn't know this was possible
 
-What did/would you point an agent-with-a-browser at first? 🧵
+What did/would you point an agent-with-a-browser at first?

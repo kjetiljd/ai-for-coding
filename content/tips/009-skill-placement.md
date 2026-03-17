@@ -37,4 +37,4 @@ Org/enterprise-level skills? GitHub says "coming soon." Claude Code supports it 
 🔴 I use neither, yet  
 ⚪ I find that skills still don't really work ...
 
-_What is your best personal skill doing?_ _🧵_
+_What is your best personal skill doing?_

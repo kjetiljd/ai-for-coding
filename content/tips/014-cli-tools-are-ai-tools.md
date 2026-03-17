@@ -28,4 +28,4 @@ _How does your agent interact with external tools?_
 🔴 Mostly MCP servers  
 ⚪ Haven't thought about it
 
-_Which CLI tools have been most valuable so far?_ _🧵_
+_Which CLI tools have been most valuable so far?_
