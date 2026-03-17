@@ -16,7 +16,7 @@ A useful filter to try: before adding a rule, ask yourself — would the AI figu
 
 💡 Try this: Review your instruction file (or a teammate's). Is anything in there that the AI would learn just by reading the code? Consider trimming it.
 
-🔗 Addy Osmani's write-up with links to both studies: [https://addyosmani.com/blog/agents-md/](https://addyosmani.com/blog/agents-md/)
+🔗 [Addy Osmani's write-up with links to both studies](https://addyosmani.com/blog/agents-md/)
 
 
 ---

@@ -20,8 +20,8 @@ The shift from "AI suggests a line" to "AI works on a task" is the big one. Term
 
 💡 Try this: Install Copilot CLI and start a session in a project. Ask it to explain the codebase before asking it to change anything.
 
-🔗 Install: [https://docs.github.com/en/copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli](https://docs.github.com/en/copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli)  
-🔗 Docs: [https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)
+🔗 [Install](https://docs.github.com/en/copilot/github-copilot-in-the-cli/installing-github-copilot-in-the-cli)  
+🔗 [Docs](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)
 
 
 ---

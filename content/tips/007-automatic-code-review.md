@@ -20,7 +20,7 @@ The DNA team (Finland) have made this mandatory on all PRs — freeing human rev
 
 💡 Try this: Pick one repo and enable automatic Copilot review on e.g feature branches. See what it catches on the next few PRs.
 
-🔗 Setup guide: Configuring Automatic Code Review for a Single Repository
+🔗 [Setup guide: Configuring Automatic Code Review](https://docs.github.com/en/copilot/managing-copilot/managing-github-copilot-in-your-organization/managing-github-copilot-features-in-your-organization/configuring-automatic-code-review-by-copilot)
 
 
 ---

@@ -17,7 +17,7 @@ Claude Code leaned into this hard — they deleted their built-in `LS` tool and 
 The practical advice: before building or installing an MCP server, check if a CLI tool already does what you need. Often, it does.
 
 💡 Try this: Ask your agent "list my open PRs" — it will use the `gh` CLI (you might need to give a hint). No MCP needed.
-🔗 Simon Willison on CLI vs MCP: [https://simonwillison.net/2025/Oct/16/claude-skills/](https://simonwillison.net/2025/Oct/16/claude-skills/)
+🔗 [Simon Willison on CLI vs MCP](https://simonwillison.net/2025/Oct/16/claude-skills/)
 
 _How does your agent interact with external tools?_  
 

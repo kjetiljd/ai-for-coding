@@ -18,7 +18,7 @@ A heads-up: MCPs aren't free. Each server adds tool descriptions to your context
 
 💡 Try this: In Copilot CLI, type `/mcp` to see your connected servers and their tools. Then browse the registry at [https://github.com/mcp](https://github.com/mcp)
 
-🔗 MCP intro: [https://modelcontextprotocol.io/introduction](https://modelcontextprotocol.io/introduction)
+🔗 [MCP intro](https://modelcontextprotocol.io/introduction)
 
 _How's your MCP journey?_  
 

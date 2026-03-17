@@ -18,7 +18,7 @@ The point: many start looking for plugins and extensions before exploring what's
 
 💡 Try this: Open Copilot CLI and ask: `**List all your tools and what each one does.**` You might be surprised what's already loaded.
 
-🔗 Full feature reference: [https://docs.github.com/en/copilot/concepts/agents/copilot-cli/comparing-cli-features](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/comparing-cli-features)
+🔗 [Full feature reference](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/comparing-cli-features)
 
 _How much of the built-in toolset have you seen being used?_  
 

@@ -18,8 +18,8 @@ And remember: if a CLI tool can do the same job ([Tip #14](/ai-for-coding/tips/0
 
 💡 Try this: Run `/context` in Copilot CLI. How much of your budget is tool descriptions vs. actual conversation?
 
-🔗 Claude Code Tool Search: https://docs.anthropic.com/en/docs/claude-code/changelog (search "ToolSearch")  
-🔗 GitHub docs on MCP toolsets: https://docs.github.com/en/copilot/concepts/context/mcp#toolset-customization
+🔗 [Claude Code Tool Search](https://docs.anthropic.com/en/docs/claude-code/changelog) (search "ToolSearch")  
+🔗 [GitHub docs on MCP toolsets](https://docs.github.com/en/copilot/concepts/context/mcp#toolset-customization)
 
 
 ---

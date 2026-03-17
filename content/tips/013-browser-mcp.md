@@ -19,8 +19,8 @@ Setup in Copilot CLI takes 30 seconds: type /mcp add, name it chrome-devtools, s
 Microsoft's Playwright MCP is the other major option (28,000+ stars). However, the Playwright team now recommends their CLI+Skills approach over MCP for coding agents — calling it "more token-efficient." The trade-off between MCP and plain CLI tools deserves its own tip — stay tuned.
 
 💡 Try this: After setup, ask your agent: "Open https://your-staging-site.com and check if there are any console errors."
-🔗 Chrome DevTools MCP: https://github.com/ChromeDevTools/chrome-devtools-mcp  
-🔗 Playwright CLI : https://github.com/microsoft/playwright-cli
+🔗 [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)  
+🔗 [Playwright CLI](https://github.com/microsoft/playwright-cli)
 
 
 ---

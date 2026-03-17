@@ -20,7 +20,7 @@ Keep it short — 30-50 lines beats a 500-line wall of text. Think of it as onbo
 
 💡 Try this: Create `.github/copilot-instructions.md` in one of your repos today. Start with 5 lines. Add a rule every time Copilot gets something wrong.
 
-🔗 Full docs: https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot (even includes a prompt that can help you create a longer starting point)
+🔗 [Full docs](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot) (even includes a prompt that can help you create a longer starting point)
 
 
 ---

@@ -16,6 +16,6 @@ The practical takeaway: use skills for **tasks you invoke explicitly** — deplo
 
 💡 Try this: In Copilot CLI, run `/skills list` and check descriptions. Are they specific enough for the agent to know when to trigger? Vague descriptions = missed activations.
 
-🔗 Vercel's full analysis: https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
+🔗 [Vercel's full analysis](https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals)
 
 Experienced skills not triggering? Found a workaround?

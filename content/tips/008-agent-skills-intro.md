@@ -20,8 +20,8 @@ Think of instruction files as _who you are_, and skills as _what you know how to
 
 (`.claude/skills/your-task/SKILL.md` is supported by Copilot CLI, OpenCode and Claude Code, see next tip!)
 
-🔗 Spec: [https://agentskills.io/specification](https://agentskills.io/specification)  
- 🔗 Copilot CLI skills: [https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-skills](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-skills)
+🔗 [Spec](https://agentskills.io/specification)  
+🔗 [Copilot CLI skills](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-skills)
 
 
 ---
