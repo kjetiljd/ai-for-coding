@@ -26,6 +26,6 @@ Tried pruning your instruction file(s)?
 🟢 Regularly — it's part of our workflow  
 🟡 Yes, once or twice  
 🔴 Not removed much yet, no  
-⚪ Instruction file ... ? ![:wink:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/1f609@2x.png)
+⚪ Instruction file ... ? 😉
 
 _Have you removed something that you then discovered_ **_had_** _to be in there?_
