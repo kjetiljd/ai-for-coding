@@ -20,9 +20,9 @@ The point: many start looking for plugins and extensions before exploring what's
 
 🔗 [Full feature reference](https://docs.github.com/en/copilot/concepts/agents/copilot-cli/comparing-cli-features)
 
-_How much of the built-in toolset have you seen being used?_  
-
 ---
+
+**How much of the built-in toolset have you seen being used?**
 
 🟢 The works — edits, web stuff, shell, subagents, planning, GitHub MCP ...  
 🟡 Some — mostly file edits and shell commands  

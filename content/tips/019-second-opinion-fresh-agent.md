@@ -20,9 +20,9 @@ This works with any tool — another terminal tab, a new Copilot Chat thread, or
 
 🔗 [Run multiple sessions in parallel (Claude Code best practices)](https://code.claude.com/docs/en/best-practices#run-multiple-claude-sessions)
 
-_Do you ever use multiple agent sessions in parallel?_  
-
 ---
+
+**Do you ever use multiple agent sessions in parallel?**
 
 🟢 Yes — second opinions, parallel exploration  
 🟡 Occasionally, when I'm really stuck  

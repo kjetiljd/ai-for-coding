@@ -20,9 +20,9 @@ A heads-up: MCPs aren't free. Each server adds tool descriptions to your context
 
 🔗 [MCP intro](https://modelcontextprotocol.io/introduction)
 
-_How's your MCP journey?_  
-
 ---
+
+**How's your MCP journey?**
 
 🟢 Already using MCP servers beyond the built-in one  
 🟡 Aware of MCP but haven't added any yet  
