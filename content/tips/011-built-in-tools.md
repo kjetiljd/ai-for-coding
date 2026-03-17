@@ -6,7 +6,7 @@ weight: 11
 summary: ""
 ---
 
-Before you install anything extra, your coding agent already comes with tools. Copilot CLI ([Tip #6](/ai-for-coding/tips/006/)) ships with built-in tools for reading files, editing code, searching your codebase (grep, glob), and running shell commands. It can also delegate to subagents — spinning up separate context windows for exploration, code review, or long-running tasks like test suites.
+Before you install anything extra, your coding agent already comes with tools. Copilot CLI ([Tip #6](/ai-for-coding/tips/006-copilot-cli/)) ships with built-in tools for reading files, editing code, searching your codebase (grep, glob), and running shell commands. It can also delegate to subagents — spinning up separate context windows for exploration, code review, or long-running tasks like test suites.
 
 And it ships with the GitHub MCP server pre-configured. That means `list my open PRs`, `check the CI status`, or `create an issue` work from day one — no setup.
 

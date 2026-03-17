@@ -12,9 +12,9 @@ This isn't theoretical. LangChain research found that ~10 tools is the sweet spo
 
 Toolmakers are noticing. Claude Code recently shipped "Tool Search" — a lazy-loading system that only loads tool definitions on-demand. Anthropic reports 85-95% reduction in initial context usage. It activates automatically. Smart, but currently Claude Code-specific.
 
-In Copilot CLI, the pattern is: be selective. Type `/context` to see your token budget. The GitHub MCP server and Chrome DevTools MCP ([Tip #13](/ai-for-coding/tips/013/)) earn their context cost. But "install every MCP server that looks cool" is a trap.
+In Copilot CLI, the pattern is: be selective. Type `/context` to see your token budget. The GitHub MCP server and Chrome DevTools MCP ([Tip #13](/ai-for-coding/tips/013-browser-mcp/)) earn their context cost. But "install every MCP server that looks cool" is a trap.
 
-And remember: if a CLI tool can do the same job ([Tip #14](/ai-for-coding/tips/014/)), it costs zero context until the agent calls `--help`.
+And remember: if a CLI tool can do the same job ([Tip #14](/ai-for-coding/tips/014-cli-tools-are-ai-tools/)), it costs zero context until the agent calls `--help`.
 
 💡 Try this: Run `/context` in Copilot CLI. How much of your budget is tool descriptions vs. actual conversation?
 

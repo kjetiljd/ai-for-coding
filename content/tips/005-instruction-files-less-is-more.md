@@ -6,7 +6,7 @@ weight: 5
 summary: ""
 ---
 
-Tips [Tip #1](/ai-for-coding/tips/001/) and [Tip #2](/ai-for-coding/tips/002/) covered setting up `copilot-instructions.md` (or `AGENTS.md`) and growing it over time. But can it grow **too much**?
+Tips [Tip #1](/ai-for-coding/tips/001-copilot-instructions/) and [Tip #2](/ai-for-coding/tips/002-every-mistake-is-a-rule/) covered setting up `copilot-instructions.md` (or `AGENTS.md`) and growing it over time. But can it grow **too much**?
 
 Some early research suggests yes. A couple of recent studies (ICSE JAWs 2026, ETH Zurich) found that auto-generated instruction files — the kind produced by `/init` commands that scan your codebase and describe what they find — actually **hurt** performance slightly while increasing cost. Meanwhile, hand-written files with genuinely non-obvious info ("use `uv` not `pip`", "the auth middleware is fragile — don't refactor it") seemed to help.
 

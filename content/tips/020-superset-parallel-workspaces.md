@@ -6,7 +6,7 @@ weight: 20
 summary: ""
 ---
 
-_[Tip #19](/ai-for-coding/tips/019/)_ _covered using fresh agent sessions for second opinions. But what if you want multiple agents working at the same time — on different tasks, in the same repo? That's an orchestration problem._
+_[Tip #19](/ai-for-coding/tips/019-second-opinion-fresh-agent/)_ _covered using fresh agent sessions for second opinions. But what if you want multiple agents working at the same time — on different tasks, in the same repo? That's an orchestration problem._
 
 You need isolated environments so agents don't overwrite each other's changes, a way to see what each one is doing, and an easy path to review and merge the results.
 

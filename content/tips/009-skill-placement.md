@@ -6,7 +6,7 @@ weight: 9
 summary: ""
 ---
 
-You've written a SKILL.md ([Tip #8](/ai-for-coding/tips/008/)). Now where do you put it?
+You've written a SKILL.md ([Tip #8](/ai-for-coding/tips/008-agent-skills-intro/)). Now where do you put it?
 
 Skills have two scopes: project (committed to the repo, shared with the team) and personal (in your home directory, often available across all projects).
 

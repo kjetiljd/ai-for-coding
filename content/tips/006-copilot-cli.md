@@ -14,7 +14,7 @@ brew install copilot-cli
 
 Then type `copilot` in any project directory to start a session.
 
-It can read your code, edit files, run shell commands, and interact with GitHub — create PRs, work on issues, the lot. It reads your `copilot-instructions.md` and `AGENTS.md` ([Tip #1](/ai-for-coding/tips/001/)) and supports plan mode ([Tip #3](/ai-for-coding/tips/003/)). When it wants to run something, it asks permission first.
+It can read your code, edit files, run shell commands, and interact with GitHub — create PRs, work on issues, the lot. It reads your `copilot-instructions.md` and `AGENTS.md` ([Tip #1](/ai-for-coding/tips/001-copilot-instructions/)) and supports plan mode ([Tip #3](/ai-for-coding/tips/003-sparring-partner-plan-mode/)). When it wants to run something, it asks permission first.
 
 The shift from "AI suggests a line" to "AI works on a task" is the big one. Terminal agents are where that shift is happening fastest.
 

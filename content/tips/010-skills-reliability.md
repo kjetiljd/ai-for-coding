@@ -6,7 +6,7 @@ weight: 10
 summary: ""
 ---
 
-You wrote a skill ([Tip #8](/ai-for-coding/tips/008/)), placed it right ([Tip #9](/ai-for-coding/tips/009/)), but the agent doesn't use it. You're not alone.
+You wrote a skill ([Tip #8](/ai-for-coding/tips/008-agent-skills-intro/)), placed it right ([Tip #9](/ai-for-coding/tips/009-skill-placement/)), but the agent doesn't use it. You're not alone.
 
 Vercel's engineering team ran rigorous evals on this. With default settings, the agent **never invoked the skill in 56% of cases** — even though it was available. Adding explicit instructions ("explore the project first, then invoke the skill") raised usage to 95% and pass rate from 53% to 79%. But an 8KB docs index embedded directly in `AGENTS.md` hit **100%** — no skill invocation needed.
 

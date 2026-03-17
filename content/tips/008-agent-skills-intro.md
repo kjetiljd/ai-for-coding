@@ -6,7 +6,7 @@ weight: 8
 summary: ""
 ---
 
-Instruction files (Tips [Tip #1](/ai-for-coding/tips/001/), [Tip #2](/ai-for-coding/tips/002/), [Tip #5](/ai-for-coding/tips/005/)) tell the AI how to behave in general. _But what about specific tasks you do repeatedly — deploying, writing release notes, running a particular code review checklist?_
+Instruction files (Tips [Tip #1](/ai-for-coding/tips/001-copilot-instructions/), [Tip #2](/ai-for-coding/tips/002-every-mistake-is-a-rule/), [Tip #5](/ai-for-coding/tips/005-instruction-files-less-is-more/)) tell the AI how to behave in general. _But what about specific tasks you do repeatedly — deploying, writing release notes, running a particular code review checklist?_
 
 That's what **Agent Skills** are for. A skill is a folder with a `SKILL.md` file containing step-by-step instructions for a specific task. The agent loads it only when relevant — keeping your context lean.
 

@@ -25,7 +25,7 @@ DORA 2025 calls these files "an important source of team norms and practices." T
 
 💡 Try this: Next time Copilot generates something wrong, add the rule before you fix the code.
 
-🔗 [Tip #1](/ai-for-coding/tips/001/)
+🔗 [Tip #1](/ai-for-coding/tips/001-copilot-instructions/)
 
 
 ---
