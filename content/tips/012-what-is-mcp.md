@@ -16,7 +16,7 @@ The ecosystem is growing fast. GitHub now has an MCP Registry — a curated dire
 
 A heads-up: MCPs aren't free. Each server adds tool descriptions to your context window — every turn, from the first prompt. Too many servers and your agent spends its working memory on tool menus instead of your code. And sometimes a plain CLI tool already on your machine does the same job with zero setup. More on that in a future tip.
 
-💡 Try this: In Copilot CLI, type `/mcp` to see your connected servers and their tools. Then browse the registry at [https://github.com/mcp](https://github.com/mcp)
+💡 Try this: In Copilot CLI, type `/mcp` to see your connected servers and their tools. Then browse the registry at [github.com/modelcontextprotocol](https://github.com/modelcontextprotocol)
 
 🔗 [MCP intro](https://modelcontextprotocol.io/introduction)
 

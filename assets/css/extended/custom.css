@@ -1,0 +1,5 @@
+/* Reduce oversized hero section on homepage */
+.first-entry {
+  min-height: auto;
+  margin-bottom: 16px;
+}
