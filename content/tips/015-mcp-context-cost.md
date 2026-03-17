@@ -24,7 +24,7 @@ And remember: if a CLI tool can do the same job ([Tip #14](/ai-for-coding/tips/0
 
 ---
 
-How many MCP servers do you have connected?  
+**How many MCP servers do you have connected?**
 
 🟢 Just the GitHub one  
 🟡 2-3 carefully chosen  

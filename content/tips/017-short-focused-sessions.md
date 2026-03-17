@@ -19,12 +19,12 @@ A useful heuristic: if you've corrected the agent twice and it's still wrong, do
 In Copilot CLI, start a new session. In Copilot Chat, open a new thread. The fresh start is free — and often faster than fighting accumulated confusion.
 
 💡 Try this: Next time things go sideways, start a fresh session and restate the problem from scratch rather than adding more corrections.
-🔗 [Manage context aggressively (Claude Code best practices)](https://code.claude.com/docs/en/best-practices#manage-context-aggressively)
+🔗 Manage context aggressively (from Claude Code best practices)
 
 
 ---
 
-How do you handle sessions that go off the rails?
+**How do you handle sessions that go off the rails?**
 
 
 🟢  Start fresh — new session, better prompt  

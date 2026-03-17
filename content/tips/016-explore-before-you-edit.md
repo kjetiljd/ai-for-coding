@@ -15,12 +15,12 @@ The agent is better at exploring when you tell it not to change anything. It won
 In Copilot CLI, the explore subagent is purpose-built for this — it runs in a separate context window so your main session stays clean. (In Copilot Chat, @workspace gives codebase awareness in VS Code.)
 
 💡Try this: Next time you are going to do changes in unfamiliar code, spend 5 minutes asking the agent questions about the codebase before you make any changes.
-🔗 [How Copilot understands your codebase (VS Code docs)](https://code.visualstudio.com/docs/copilot/workspace-context)
+🔗 How Copilot understands your codebase (VS Code docs)
 
 
 ---
 
-How do you approach unfamiliar code?  
+**How do you approach unfamiliar code?**
 
 🟢 I ask the AI to explain it first  
 🟡 I read the code myself, then ask AI for specifics  

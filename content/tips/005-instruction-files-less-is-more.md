@@ -21,7 +21,7 @@ A useful filter to try: before adding a rule, ask yourself — would the AI figu
 
 ---
 
-Tried pruning your instruction file(s)?  
+**Tried pruning your instruction file(s)?**
 
 🟢 Regularly — it's part of our workflow  
 🟡 Yes, once or twice  
