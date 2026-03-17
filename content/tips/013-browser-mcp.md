@@ -6,8 +6,6 @@ weight: 13
 summary: ""
 ---
 
-💻✨ AI for Coding — Tip #13: Give your agent a browser
-
 One of the most practical MCP servers gives your agent what it's been missing: a browser.
 
 Chrome DevTools MCP (chrome-devtools-mcp) lets your agent open pages, click buttons, fill forms, read console logs, inspect network requests, take screenshots, and even run Lighthouse performance audits — all from your terminal.
@@ -23,6 +21,9 @@ Microsoft's Playwright MCP is the other major option (28,000+ stars). However, t
 💡 Try this: After setup, ask your agent: "Open https://your-staging-site.com and check if there are any console errors."
 🔗 Chrome DevTools MCP: https://github.com/ChromeDevTools/chrome-devtools-mcp
 🔗 Playwright CLI : https://github.com/microsoft/playwright-cli
+
+
+---
 
 Have you given your coding agent proper browser access?
  🟢 Yes — it's a game changer

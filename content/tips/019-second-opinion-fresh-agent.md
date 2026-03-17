@@ -6,8 +6,6 @@ weight: 19
 summary: ""
 ---
 
-💻✨ **AI for Coding — Tip #19: Get a second opinion from a fresh agent**
-
 When you've been going back and forth on a tricky problem, the agent is anchored — its context is full of earlier (possibly wrong) attempts. Hard to think fresh.
 
 The trick: **open a second session and ask the same question from scratch.** No memory of dead ends. It often finds a simpler solution because it isn't patching its previous approach.
@@ -23,6 +21,9 @@ This works with any tool — another terminal tab, a new Copilot Chat thread, or
 🔗 [Run multiple sessions in parallel (Claude Code best practices)](https://code.claude.com/docs/en/best-practices#run-multiple-claude-sessions)
 
 _Do you ever use multiple agent sessions in parallel?_
+
+---
+
  🟢 Yes — second opinions, parallel exploration
  🟡 Occasionally, when I'm really stuck
  🔴 No — one session at a time

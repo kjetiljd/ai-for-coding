@@ -6,8 +6,6 @@ weight: 2
 summary: ""
 ---
 
-:💻✨ **AI for Coding — Tip #2: Every AI mistake is a rule**
-
 Copilot just generated code that ignores your team's conventions. You sigh, fix it manually, move on.
 
 The advice out there is: Don't.
@@ -28,6 +26,9 @@ DORA 2025 calls these files "an important source of team norms and practices." T
 💡 Try this: Next time Copilot generates something wrong, add the rule before you fix the code.
 
 🔗 [Tip #1 (the basics)](https://thedoozers.slack.com/archives/C09LTQW5XKJ/p1771504880740039)
+
+
+---
 
 How often do you update your instruction file(s)?
 🟢 Regularly — it's part of our workflow

@@ -6,8 +6,6 @@ weight: 3
 summary: ""
 ---
 
-💻✨ *AI for Coding — Tip #3: Use Copilot as a sparring partner*
-
 Most people use Copilot to generate code. That's fine. But there's a powerful mode that some developers skip: **thinking together before writing a single line.**
 
 Start your next complex task with this prompt:
@@ -30,6 +28,9 @@ Once you've talked it through and aligned on an approach — *then* let it execu
 Mitchell Hashimoto puts it simply: *"For vague requests, split the work into separate planning vs. execution sessions."*
 
 💡 Try this: On your next task, start in Plan mode. See what it surfaces before you commit to an approach.
+
+
+---
 
 Have you tried plan mode before coding?
 🟢 Yes — it's a game changer

@@ -6,8 +6,6 @@ weight: 7
 summary: ""
 ---
 
-💻✨ AI for Coding — Tip #7: Let Copilot review every PR — automatically
-
 You can set up GitHub Copilot to automatically review your pull requests. You need a branch ruleset: go to your repo's Settings → Rules → Rulesets, create a new branch ruleset, and check "Automatically request Copilot code review." Pick which branches to target (default branch, all branches, or a pattern).
 []()
 Two options worth knowing about:
@@ -23,6 +21,9 @@ The DNA team (Finland) have made this mandatory on all PRs — freeing human rev
 💡 Try this: Pick one repo and enable automatic Copilot review on e.g feature branches. See what it catches on the next few PRs.
 
 🔗 Setup guide: Configuring Automatic Code Review for a Single Repository
+
+
+---
 
 What is your experience with Github Copilot code reviews?
 🟢 We have already set up automatic reviews

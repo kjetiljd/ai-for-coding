@@ -6,8 +6,6 @@ weight: 4
 summary: ""
 ---
 
-💻✨ *AI for Coding — Tip #4: Paste the error, get the explanation*
-
 When you hit a cryptic error message, don't Google it. Paste it into your Copilot chat.
 
 But here's the key: **ask for the explanation first, not the fix.**
@@ -25,5 +23,8 @@ GitHub proposes: *"Instead of asking 'What's wrong with this function?' try 'Why
 💡 Try this: Next time you hit a stack trace, paste it into Copilot chat and ask "explain this error" before you ask for a fix.
 
 🔗 [How to debug code with GitHub Copilot](https://github.blog/developer-skills/github/how-to-debug-code-with-github-copilot/)
+
+
+---
 
 Got a debugging workflow that works for you? Share it in 🧵

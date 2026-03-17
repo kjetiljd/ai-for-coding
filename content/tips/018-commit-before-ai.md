@@ -6,8 +6,6 @@ weight: 18
 summary: ""
 ---
 
-💻✨ **AI for Coding — Tip #18: Commit before you let the agent loose**
-
 A habit that pays for itself immediately: **commit (or stash) before asking the agent to make changes.**
 
 AI agents touch multiple files at once. Without a clean baseline, it's hard to tell what the agent changed vs. what was already there — and harder to undo just the parts you don't want.
@@ -29,6 +27,9 @@ Save your game before the boss fight.
 🔗 [Review AI-generated code edits (VS Code docs)](https://code.visualstudio.com/docs/copilot/chat/review-code-edits)
 
 _Do you create a checkpoint before AI-assisted changes?_
+
+---
+
  🟢 Always — commit or stash first
  🟡 Sometimes, when it's a big change
  🔴 No — I rely on undo / inline diffs

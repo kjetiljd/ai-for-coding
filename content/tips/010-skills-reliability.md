@@ -6,8 +6,6 @@ weight: 10
 summary: ""
 ---
 
-💻✨ *AI for Coding — Tip #10: Why your skills might not be triggering*
-
 You wrote a skill (Tip #8), placed it right (Tip #9), but the agent doesn't use it. You're not alone.
 
 Vercel's engineering team ran rigorous evals on this. With default settings, the agent **never invoked the skill in 56% of cases** — even though it was available. Adding explicit instructions ("explore the project first, then invoke the skill") raised usage to 95% and pass rate from 53% to 79%. But an 8KB docs index embedded directly in `AGENTS.md` hit **100%** — no skill invocation needed.
@@ -19,5 +17,8 @@ The practical takeaway: use skills for **tasks you invoke explicitly** — deplo
 💡 Try this: In Copilot CLI, run `/skills list` and check descriptions. Are they specific enough for the agent to know when to trigger? Vague descriptions = missed activations.
 
 🔗 Vercel's full analysis: https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
+
+
+---
 
 Experienced skills not triggering? Found a workaround? 🧵

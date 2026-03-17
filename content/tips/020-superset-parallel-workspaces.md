@@ -6,8 +6,6 @@ weight: 20
 summary: ""
 ---
 
-**💻** **✨** **AI for Coding — Tip #20: Give your agents their own workspaces**
-
 _[Tip #19](/ai-for-coding/tips/019/)_ _covered using fresh agent sessions for second opinions. But what if you want multiple agents working at the same time — on different tasks, in the same repo? That's an orchestration problem._
 
 You need isolated environments so agents don't overwrite each other's changes, a way to see what each one is doing, and an easy path to review and merge the results.
@@ -22,6 +20,9 @@ The workflow: give three agents three different tasks, let them run in parallel,
 🔗 [superset.sh](https://superset.sh/) - Superset — parallel agent workspaces>
 
 _Where does your coding agent live?_
+
+---
+
 🟢 Multiplexing terminal (tmux, Superset, Warp, etc.)
 🟡 In a terminal (standalone or IDE integrated)
 🔴 Chat pane in my IDE (Copilot Chat, Cursor, etc.)

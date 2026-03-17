@@ -6,8 +6,6 @@ weight: 12
 summary: ""
 ---
 
-💻✨ **AI for Coding — Tip #12: MCP — the USB-C of AI tools**
-
 Model Context Protocol (MCP) is an open standard for connecting AI agents to external systems. Think of it as USB-C for AI: one standard plug, many devices.
 
 Without MCP, agent-tool integrations are custom. With it, an MCP server written once works across Copilot CLI, Claude Code, Cursor, VS Code, JetBrains — any MCP-compatible client. The protocol handles tool discovery, invocation, and data exchange.
@@ -23,6 +21,9 @@ A heads-up: MCPs aren't free. Each server adds tool descriptions to your context
 🔗 MCP intro: [https://modelcontextprotocol.io/introduction](https://modelcontextprotocol.io/introduction)
 
 _How's your MCP journey?_
+
+---
+
  🟢 Already using MCP servers beyond the built-in one
  🟡 Aware of MCP but haven't added any yet
  🔴 Tried it, ran into issues

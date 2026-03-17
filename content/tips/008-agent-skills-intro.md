@@ -6,8 +6,6 @@ weight: 8
 summary: ""
 ---
 
-💻✨ _AI for Coding — Tip #8: Teach your AI agent repeatable skills_
-
 Instruction files (Tips [Tip #1](/ai-for-coding/tips/001/), [Tip #2](/ai-for-coding/tips/002/), [Tip #5](/ai-for-coding/tips/005/)) tell the AI how to behave in general. _But what about specific tasks you do repeatedly — deploying, writing release notes, running a particular code review checklist?_
 
 That's what **Agent Skills** are for. A skill is a folder with a `SKILL.md` file containing step-by-step instructions for a specific task. The agent loads it only when relevant — keeping your context lean.
@@ -25,9 +23,12 @@ Think of instruction files as _who you are_, and skills as _what you know how to
 🔗 Spec: [https://agentskills.io/specification](https://agentskills.io/specification)
  🔗 Copilot CLI skills: [https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-skills](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/create-skills)
 
-🟢 Yes — we have skills in our team `🟢`
-🟡 I have tried it `🟡`
-🔴 Nope, not yet `🔴`
-⚪ Nope, I have heard agents don't use them ... `⚪`
+
+---
+
+🟢 Yes — we have skills in our team
+🟡 I have tried it
+🔴 Nope, not yet
+⚪ Nope, I have heard agents don't use them ...
 
 _Have you tried writing a skill? Or found a good one to share?_ _🧵_

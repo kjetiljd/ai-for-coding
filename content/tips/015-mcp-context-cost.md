@@ -6,8 +6,6 @@ weight: 15
 summary: ""
 ---
 
-💻✨ *AI for Coding — Tip #15: MCP servers eat your context window*
-
 Every MCP server you connect adds tool descriptions to the agent's context — every turn, from the first prompt. Connect five servers and you can lose 30-50% of your context window before you've even asked a question.
 
 This isn't theoretical. LangChain research found that ~10 tools is the sweet spot for model accuracy. Beyond that, the agent gets worse at choosing the right tool — the menu is too long.
@@ -22,6 +20,9 @@ And remember: if a CLI tool can do the same job (Tip #14), it costs zero context
 
 🔗 Claude Code Tool Search: https://docs.anthropic.com/en/docs/claude-code/changelog (search "ToolSearch")
 🔗 GitHub docs on MCP toolsets: https://docs.github.com/en/copilot/concepts/context/mcp#toolset-customization
+
+
+---
 
 How many MCP servers do you have connected?
 🟢 Just the GitHub one

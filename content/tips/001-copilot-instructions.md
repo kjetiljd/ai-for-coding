@@ -6,8 +6,6 @@ weight: 1
 summary: ""
 ---
 
-💻✨ AI for Coding — Tip #1: Give Copilot a memory
-
 Every time you start a Copilot session, it knows nothing about your project. Your conventions, your architecture decisions, your "please don't touch that module" — all gone. You repeat yourself. Every. Single. Time.
 
 Fix: create a file called .github/copilot-instructions.md in your repo. Copilot reads it automatically on every interaction — Chat, Agent Tab, code review, CLI. You write it once, and it just works.
@@ -24,8 +22,11 @@ Keep it short — 30-50 lines beats a 500-line wall of text. Think of it as onbo
 
 🔗 Full docs: https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot (even includes a prompt that can help you create a longer starting point)
 
+
+---
+
 Does your team have a copilot-instructions.md yet?
-🟢 Yes, and we maintain it (some do! https://github.com/search?q=user:TelenorNorgeInternal+path:**/copilot-instructions.md+&type=code)
+🟢 Yes, and we maintain it
 🟡 Yes, but it's not maintained
 🔴 Nope, not yet
 ⚪ We use AGENTS.md / CLAUDE.md instead

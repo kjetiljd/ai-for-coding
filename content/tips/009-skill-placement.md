@@ -6,8 +6,6 @@ weight: 9
 summary: ""
 ---
 
-💻✨ **AI for Coding — Tip #9: Where to put your skills (and where they'll actually be found)**
-
 You've written a SKILL.md ([Tip #8](/ai-for-coding/tips/008/)). Now where do you put it?
 
 Skills have two scopes: project (committed to the repo, shared with the team) and personal (in your home directory, often available across all projects).
@@ -31,9 +29,12 @@ Org/enterprise-level skills? GitHub says "coming soon." Claude Code supports it 
 🔗 Copilot CLI skill paths: [https://docs.github.com/en/copilot/concepts/agents/about-agent-skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)
 🔗 Open standard: [https://agentskills.io/specification](https://agentskills.io/specification)
 
-🟢 I use both personal and project skills `🟢`
-🟡 I use personal or project skills `🟡`
-🔴 I use neither, yet `🔴`
-⚪ I find that skills still don't really work ... `⚪`
+
+---
+
+🟢 I use both personal and project skills
+🟡 I use personal or project skills
+🔴 I use neither, yet
+⚪ I find that skills still don't really work ...
 
 _What is your best personal skill doing?_ _🧵_

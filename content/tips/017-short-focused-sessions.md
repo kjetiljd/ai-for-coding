@@ -6,8 +6,6 @@ weight: 17
 summary: ""
 ---
 
-💻 ✨ AI for Coding — Tip #17: Keep sessions short(-ish) and focused
-
 AI agents have a context window, the fuller it gets, the worse the agent performs.
 
 The context window is a fixed amount of text they can "see." Your conversation, files, tool outputs, and past mistakes all accumulate there.
@@ -22,6 +20,9 @@ In Copilot CLI, start a new session. In Copilot Chat, open a new thread. The fre
 
 💡 Try this: Next time things go sideways, start a fresh session and restate the problem from scratch rather than adding more corrections.
 🔗 Manage context aggressively (from Claude Code best practices)
+
+
+---
 
 How do you handle sessions that go off the rails?
 

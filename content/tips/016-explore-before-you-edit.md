@@ -6,8 +6,6 @@ weight: 16
 summary: ""
 ---
 
-💻 ✨ AI for Coding — Tip #16: Explore before you edit
-
 Jumping into unfamiliar code? Before you change anything, use the agent as a research assistant.
 
 Ask it to build you a mental map: "What are the main modules? How does data flow from API to database? Where is auth handled? What testing patterns does this project use?" You'll get a guided tour that would take an hour of reading to piece together yourself.
@@ -18,6 +16,9 @@ In Copilot CLI, the explore subagent is purpose-built for this — it runs in a 
 
 💡Try this: Next time you are going to do changes in unfamiliar code, spend 5 minutes asking the agent questions about the codebase before you make any changes.
 🔗 How Copilot understands your codebase (VS Code docs)
+
+
+---
 
 How do you approach unfamiliar code?
 🟢 I ask the AI to explain it first

@@ -6,8 +6,6 @@ weight: 14
 summary: ""
 ---
 
-**💻****✨** **AI for Coding — Tip #14: Your CLI tools are already AI tools**
-
 Here's a pattern worth noticing: your agent can use `gh`, `git`, `jq`, `curl`, `rg`, and `make` — tools already on your machine — without any MCP server, config, or setup.
 
 Simon Willison put it well: "Almost everything I might achieve with an MCP can be handled by a CLI tool instead. LLMs know how to call `cli-tool --help`, which means you don't have to spend many tokens describing how to use them — the model can figure it out later when it needs to."
@@ -22,6 +20,9 @@ The practical advice: before building or installing an MCP server, check if a CL
 🔗 Simon Willison on CLI vs MCP: [https://simonwillison.net/2025/Oct/16/claude-skills/](https://simonwillison.net/2025/Oct/16/claude-skills/)
 
 _How does your agent interact with external tools?_
+
+---
+
  🟢 Mostly CLI tools — gh, git, jq, etc.
  🟡 Mix of CLI and MCP
  🔴 Mostly MCP servers
