@@ -1,0 +1,33 @@
+baseURL = 'https://kjetiljd.github.io/ai-for-coding/'
+locale = 'en-us'
+title = '💻✨ AI for Coding'
+theme = 'PaperMod'
+
+[params]
+  description = 'Practical AI tips for software engineers'
+  author = 'Kjetil J.D.'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = 'auto'
+  [params.homeInfoParams]
+    Title = '💻✨ AI for Coding'
+    Content = 'Short, actionable tips to help developers get more value from AI coding tools. Originally shared as an internal Slack series.'
+
+[taxonomies]
+  category = 'categories'
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[menu]
+  [[menu.main]]
+    name = 'All Tips'
+    url = '/tips/'
+    weight = 10
+  [[menu.main]]
+    name = 'Categories'
+    url = '/categories/'
+    weight = 20
