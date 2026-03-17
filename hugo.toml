@@ -2,7 +2,9 @@ baseURL = 'https://kjetiljd.github.io/ai-for-coding/'
 locale = 'en-us'
 title = '💻✨ AI for Coding'
 theme = 'PaperMod'
-paginate = 100
+
+[pagination]
+  pagerSize = 100
 
 [params]
   description = 'Practical AI tips for software engineers'
