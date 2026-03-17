@@ -18,9 +18,10 @@ A useful filter to try: before adding a rule, ask yourself — would the AI figu
 
 🔗 Addy Osmani's write-up with links to both studies: [https://addyosmani.com/blog/agents-md/](https://addyosmani.com/blog/agents-md/)
 
-Tried pruning your instruction file(s)?  
 
 ---
+
+Tried pruning your instruction file(s)?  
 
 🟢 Regularly — it's part of our workflow  
 🟡 Yes, once or twice  

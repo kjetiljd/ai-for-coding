@@ -26,6 +26,7 @@ In Copilot CLI, start a new session. In Copilot Chat, open a new thread. The fre
 
 How do you handle sessions that go off the rails?
 
+
 🟢  Start fresh — new session, better prompt  
 🟡  I tend to keep pushing — usually works eventually  
 🔴  Give up and do it manually  

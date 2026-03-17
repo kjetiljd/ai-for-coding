@@ -26,6 +26,7 @@ The DNA team (Finland) have made this mandatory on all PRs — freeing human rev
 ---
 
 What is your experience with Github Copilot code reviews?  
+
 🟢 We have already set up automatic reviews  
 🟡 We are invoking Copilot as a reviewer on a case by case basis  
 🔴 We haven't looked at this yet  
