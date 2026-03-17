@@ -26,9 +26,9 @@ Microsoft's Playwright MCP is the other major option (28,000+ stars). However, t
 ---
 
 Have you given your coding agent proper browser access?
- 🟢 Yes — it's a game changer
- 🟡 Interested, haven't tried yet
- 🔴 Sounds risky, not sure I want that
- ⚪ Didn't know this was possible
+🟢 Yes — it's a game changer  
+🟡 Interested, haven't tried yet  
+🔴 Sounds risky, not sure I want that  
+⚪ Didn't know this was possible
 
 What did/would you point an agent-with-a-browser at first? 🧵

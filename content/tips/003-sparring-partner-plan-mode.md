@@ -33,9 +33,9 @@ Mitchell Hashimoto puts it simply: *"For vague requests, split the work into sep
 ---
 
 Have you tried plan mode before coding?
-🟢 Yes — it's a game changer
-🟡 Sometimes, for bigger tasks
-🔴 No, I go straight to generating code
+🟢 Yes — it's a game changer  
+🟡 Sometimes, for bigger tasks  
+🔴 No, I go straight to generating code  
 ⚪ I split plan and execute, but not using plan mode
 
 Tried plan mode and want to share what happened? We want to hear it 🧵

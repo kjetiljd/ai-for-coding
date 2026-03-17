@@ -21,9 +21,9 @@ In Copilot CLI, the explore subagent is purpose-built for this — it runs in a 
 ---
 
 How do you approach unfamiliar code?
-🟢 I ask the AI to explain it first
-🟡 I read the code myself, then ask AI for specifics
-🔴 I jump in and figure it out as I go
+🟢 I ask the AI to explain it first  
+🟡 I read the code myself, then ask AI for specifics  
+🔴 I jump in and figure it out as I go  
 ⚪ I mostly work in code I already know
 
 What's a good first question to ask about an unfamiliar codebase? 🧵

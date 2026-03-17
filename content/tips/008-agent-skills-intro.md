@@ -26,9 +26,9 @@ Think of instruction files as _who you are_, and skills as _what you know how to
 
 ---
 
-🟢 Yes — we have skills in our team
-🟡 I have tried it
-🔴 Nope, not yet
+🟢 Yes — we have skills in our team  
+🟡 I have tried it  
+🔴 Nope, not yet  
 ⚪ Nope, I have heard agents don't use them ...
 
 _Have you tried writing a skill? Or found a good one to share?_ _🧵_

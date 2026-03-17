@@ -31,7 +31,7 @@ DORA 2025 calls these files "an important source of team norms and practices." T
 ---
 
 How often do you update your instruction file(s)?
-🟢 Regularly — it's part of our workflow
-🟡 Sometimes, when I remember
-🔴 I have one but haven't updated it
+🟢 Regularly — it's part of our workflow  
+🟡 Sometimes, when I remember  
+🔴 I have one but haven't updated it  
 ⚪ Starting from scratch after this tip (edited)

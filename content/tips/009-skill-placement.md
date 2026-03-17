@@ -32,9 +32,9 @@ Org/enterprise-level skills? GitHub says "coming soon." Claude Code supports it 
 
 ---
 
-🟢 I use both personal and project skills
-🟡 I use personal or project skills
-🔴 I use neither, yet
+🟢 I use both personal and project skills  
+🟡 I use personal or project skills  
+🔴 I use neither, yet  
 ⚪ I find that skills still don't really work ...
 
 _What is your best personal skill doing?_ _🧵_

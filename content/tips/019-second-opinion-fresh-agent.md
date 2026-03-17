@@ -24,9 +24,9 @@ _Do you ever use multiple agent sessions in parallel?_
 
 ---
 
- 🟢 Yes — second opinions, parallel exploration
- 🟡 Occasionally, when I'm really stuck
- 🔴 No — one session at a time
- ⚪ Interesting idea, haven't tried it
+🟢 Yes — second opinions, parallel exploration  
+🟡 Occasionally, when I'm really stuck  
+🔴 No — one session at a time  
+⚪ Interesting idea, haven't tried it
 
 _Have you tried the writer/reviewer pattern or something like it? How did it go? 🧵_

@@ -24,9 +24,9 @@ _How's your MCP journey?_
 
 ---
 
- 🟢 Already using MCP servers beyond the built-in one
- 🟡 Aware of MCP but haven't added any yet
- 🔴 Tried it, ran into issues
- ⚪ First time hearing about this
+🟢 Already using MCP servers beyond the built-in one  
+🟡 Aware of MCP but haven't added any yet  
+🔴 Tried it, ran into issues  
+⚪ First time hearing about this
 
 _Using any MCP servers beyond the GitHub one? Which ones?_ _🧵_ (edited)

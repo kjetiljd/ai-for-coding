@@ -27,9 +27,9 @@ The shift from "AI suggests a line" to "AI works on a task" is the big one. Term
 ---
 
 Have you tried a terminal-based AI agent?
-🟢 Yes — I use one regularly
-🟡 Tried it, still figuring it out
-🔴 Not yet, but curious
+🟢 Yes — I use one regularly  
+🟡 Tried it, still figuring it out  
+🔴 Not yet, but curious  
 ⚪ I prefer staying in the IDE
 
 _What's been your experience?_ _🧵_

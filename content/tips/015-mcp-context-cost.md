@@ -25,9 +25,9 @@ And remember: if a CLI tool can do the same job (Tip #14), it costs zero context
 ---
 
 How many MCP servers do you have connected?
-🟢 Just the GitHub one
-🟡 2-3 carefully chosen
-🔴 Lost count — maybe too many
+🟢 Just the GitHub one  
+🟡 2-3 carefully chosen  
+🔴 Lost count — maybe too many  
 ⚪ None yet, still figuring it out
 
 Tips for keeping your context lean? 🧵

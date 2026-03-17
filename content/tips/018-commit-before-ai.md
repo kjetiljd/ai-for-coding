@@ -30,9 +30,9 @@ _Do you create a checkpoint before AI-assisted changes?_
 
 ---
 
- 🟢 Always — commit or stash first
- 🟡 Sometimes, when it's a big change
- 🔴 No — I rely on undo / inline diffs
- ⚪ I mostly use chat, not agent mode
+🟢 Always — commit or stash first  
+🟡 Sometimes, when it's a big change  
+🔴 No — I rely on undo / inline diffs  
+⚪ I mostly use chat, not agent mode
 
 _Any git tricks that work well with AI workflows? Share in 🧵_

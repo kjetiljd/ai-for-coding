@@ -11,10 +11,10 @@ Every time you start a Copilot session, it knows nothing about your project. You
 Fix: create a file called .github/copilot-instructions.md in your repo. Copilot reads it automatically on every interaction — Chat, Agent Tab, code review, CLI. You write it once, and it just works.
 
 What to put in it:
-• Language and framework ("This is a Spring Boot 3.x service in Kotlin")
-• Architecture boundaries ("Never call the payment module directly")
-• Testing strategy ("Use testcontainers for integration tests")
-• Common gotchas ("The legacy API returns XML, not JSON")
+- Language and framework ("This is a Spring Boot 3.x service in Kotlin")
+- Architecture boundaries ("Never call the payment module directly")
+- Testing strategy ("Use testcontainers for integration tests")
+- Common gotchas ("The legacy API returns XML, not JSON")
 
 Keep it short — 30-50 lines beats a 500-line wall of text. Think of it as onboarding notes, but for AI.
 
@@ -26,7 +26,7 @@ Keep it short — 30-50 lines beats a 500-line wall of text. Think of it as onbo
 ---
 
 Does your team have a copilot-instructions.md yet?
-🟢 Yes, and we maintain it
-🟡 Yes, but it's not maintained
-🔴 Nope, not yet
+🟢 Yes, and we maintain it  
+🟡 Yes, but it's not maintained  
+🔴 Nope, not yet  
 ⚪ We use AGENTS.md / CLAUDE.md instead

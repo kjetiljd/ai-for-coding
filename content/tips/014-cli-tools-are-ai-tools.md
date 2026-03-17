@@ -23,9 +23,9 @@ _How does your agent interact with external tools?_
 
 ---
 
- 🟢 Mostly CLI tools — gh, git, jq, etc.
- 🟡 Mix of CLI and MCP
- 🔴 Mostly MCP servers
- ⚪ Haven't thought about it
+🟢 Mostly CLI tools — gh, git, jq, etc.  
+🟡 Mix of CLI and MCP  
+🔴 Mostly MCP servers  
+⚪ Haven't thought about it
 
 _Which CLI tools have been most valuable so far?_ _🧵_
