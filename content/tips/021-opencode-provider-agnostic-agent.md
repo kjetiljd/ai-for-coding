@@ -3,8 +3,7 @@ title: "Tip #21: Meet OpenCode — the open source coding agent"
 date: 2026-03-18
 categories: ["Tools & Integrations"]
 weight: 21
-summary: "A provider-agnostic coding agent that works with your existing Copilot license and 75+ other providers."
-description: "A provider-agnostic coding agent that works with your existing Copilot license and 75+ other providers."
+summary: ""
 ---
 
 *Most coding agents lock you into one provider. Claude Code needs an Anthropic subscription. Copilot CLI needs GitHub. What if you want to switch models — or use several?*
@@ -14,8 +13,8 @@ OpenCode (opencode.ai) is an open source coding agent that works with 75+ provid
 It has a fast terminal UI, a desktop app, built-in LSP for 35+ languages (your agent actually understands your types and imports), and a Plan/Build mode split that feels natural — plan read-only first, then let it build.
 120k+ stars on GitHub. Growing fast. Worth knowing about even if you don't switch — the landscape is moving toward provider-agnostic tools, and having options keeps you flexible.
 
-💡 Try this: `brew install anomalyco/tap/opencode` — then run `opencode` in a project folder. It'll auto-detect your language server and project context.
-🔗 [opencode.ai](https://opencode.ai) — OpenCode: the open source AI coding agent
+💡 Try this: brew install anomalyco/tap/opencode — then run opencode in a project folder. It'll auto-detect your language server and project context.
+🔗  opencode.ai — OpenCode: the open source AI coding agent
 
 ---
 
