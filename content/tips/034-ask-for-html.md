@@ -26,7 +26,7 @@ You're not replacing markdown for everything — just for the review step before
 
 💡 **Try this:** Next time you ask an agent for a multi-file change, add "Output the plan as HTML first. Do not execute yet." Open it in your browser. Iterate until you're confident, then approve.
 
-🔗 [Companion examples](https://thariqs.github.io/html-effectiveness/)
+🔗 [Examples](https://thariqs.github.io/html-effectiveness/)
 
 ---
 
@@ -34,7 +34,7 @@ You're not replacing markdown for everything — just for the review step before
 
 🟢 Code changes (multi-file refactors)  
 🟡 Repo hygiene (moves, renames, deps)  
-🟠 Cloud/infra changes  
+⚪ Cloud/infra changes  
 🔴 Data/files (migrations, cleanups)
 
 Tried HTML output? Share your experience 🧵
