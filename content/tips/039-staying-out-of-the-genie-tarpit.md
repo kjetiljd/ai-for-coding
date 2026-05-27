@@ -8,7 +8,7 @@ summary: "Kent Beck: AI agents push code down and to the left — less working, 
 
 Kent Beck frames software value on two axes: **features** (does it work?) and **flexibility** (can we change it safely?). His claim is that many teams were not really having the capacity to do proper __engineering__ before AI - they were __muddling__ — things were mostly working, but somewhat hard to change. His observation: AI agents push you further down and left.
 
-![Kent Beck's Features vs Flexibility grid — genies live down and to the left](/images/genie-tarpit-beck.jpg)
+![Kent Beck's Features vs Flexibility grid — genies live down and to the left](/ai-for-coding/images/genie-tarpit-beck.jpg)
 *Source: Kent Beck, [Genie Tarpit](https://tidyfirst.substack.com/p/genie-tarpit)*
 
 > The 'plausible deniability' task orientation of the genie leaves it claiming success even though the code doesn't work at all. And complexity piles on complexity until even the genie can't pretend to make progress any more.
