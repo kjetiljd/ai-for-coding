@@ -29,4 +29,4 @@ The escape route runs through this series: e.g verify the agent's work ([tip #33
 🔴 Sliding left — AI is fast, but the code is getting harder to change  
 ⚪ Haven't thought about it this way
 
-_How do you maintain code flexibility with AI?
+_How do you maintain code flexibility with AI? 🧵_
