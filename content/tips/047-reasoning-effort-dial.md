@@ -13,11 +13,11 @@ Rough guide, straight from OpenAI's and Anthropic's docs:
 - medium — everyday agentic coding (a solid default)
 - high / xhigh — hard debugging, deep planning, security and code review
 
-The counterintuitive part: reasoning effort can matter more than model size. A mid-tier model thinking hard can beats a bigger model thinking little. Anthropic says it plainly: "Tuning effort is often a better lever than switching models."
+The counterintuitive part: reasoning effort can matter more than model size. A mid-tier model thinking hard can beat a bigger model thinking little. Anthropic says it plainly: "Tuning effort is often a better lever than switching models."
 
 Caveat: thinking isn't free — and at high effort, models might over-engineer, adding refactors and abstractions you didn't ask for. It also takes longer.
 
-Where's the dial? In Copilot, open /model and use ← /→ to set the reasoning effort for the highlighted model. Claude Code has /effort.
+Where's the dial? In Copilot, open /model and use ←/→ to set the reasoning effort for the highlighted model. Claude Code has /effort.
 
 💡 Try this: A/B test it on one model. Set the lowest reasoning effort, give it a task, notice the outcome. /rewind to reset, then set the same model to the highest reasoning level and give it the same task. Do the results differ? Did it take longer?
 
