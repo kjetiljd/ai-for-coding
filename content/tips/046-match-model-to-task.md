@@ -14,7 +14,7 @@ The best cheat sheet is already in your terminal. Run `/subagents` in Copilot CL
 - rubber-duck → a different model family — a genuinely diverse second opinion
 - code-review, security-review → inherit your strong driver model
 
-That's the Copilot team's own task→model map — and notice it's not "always the biggest." The principle generalizes: a frontier model (Opus, GPT-5.6 Sol) for deep reasoning and debugging; a fast, cheap one (Haiku, GPT-5.6 luna) for mechanical work. As one practitioner puts it: *"Use Opus to think and Sonnet to build."*
+That's the Copilot team's own task→model map — and notice it's not "always the biggest." The principle generalizes: a frontier model (Opus, GPT-5.6 Sol) for deep reasoning and debugging; a fast, cheap one (Haiku, GPT-5.6 Luna) for mechanical work. As one practitioner puts it: *"Use Opus to think and Sonnet to build."*
 
 Switch your own model in Copilot with /model. Claude Code has the same idea.
 
