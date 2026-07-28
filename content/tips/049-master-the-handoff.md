@@ -6,7 +6,7 @@ weight: 49
 summary: "Handoffs happen constantly — compaction, subagents, fresh sessions — and the receiver can't ask what you meant. Record the why, not just the what, and hand off before you hit the wall, not after."
 ---
 
-Every time work moves from one session to another — or from the main agent to a subagent, a fresh agent, or in real life from you to a teammate — that's a *handoff*. With AI coding agents handoffs happen often and sometimes invisibly: auto-compaction firing, work being given to a subagent — or you starting a fresh session (e.g with `/clear` after a plan or spec has been written).
+Every time work moves from one session to another — or from the main agent to a subagent, a fresh agent, or in real life from you to a teammate — that's a *handoff*. With AI coding agents handoffs happen often and sometimes invisibly: auto-compaction firing, work being given to a subagent — or you starting a fresh session (e.g. with `/clear`) after a plan or spec has been written.
 
 The catch here: *the receiver can't ask the sender what it meant, so any handoff artifact has to stand on its own*. For example a good handoff should record not just the **what**, but also the **why**, otherwise the next session might reopen settled questions.
 
