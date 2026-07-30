@@ -32,4 +32,4 @@ Bonus: a fresh session with a good brief has no sunk-cost bias — it is not con
 🔴 I often lose context and feel it  
 ⚪ Haven't hit this yet
 
-_Got a handoff trick you like? Drop it in
+_Got a handoff trick you like?_
