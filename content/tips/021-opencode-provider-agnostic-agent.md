@@ -3,7 +3,7 @@ title: "Tip #21: Meet OpenCode — the open source coding agent"
 date: 2026-03-18
 categories: ["Tools & Integrations"]
 weight: 21
-summary: ""
+summary: "OpenCode is an open source coding agent that works with 75+ providers — and it can run on your existing GitHub Copilot license. Fast terminal UI, built-in LSP for 35+ languages, and a Plan/Build mode split."
 ---
 
 *Most coding agents lock you into one provider. Claude Code needs an Anthropic subscription. Copilot CLI needs GitHub. What if you want to switch models — or use several?*
