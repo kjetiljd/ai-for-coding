@@ -1,0 +1,1576 @@
+{
+  "tittel": "50 tips på 60 minutter — bli bedre med AI-agenter",
+  "kildeRev": "cfe14e4+skitten",
+  "antallTips": 57,
+  "tips": [
+    {
+      "nr": 1,
+      "id": "laer-mer-om-modellene",
+      "type": "tips",
+      "tittel": "Lær deg om hvordan modellene blir til",
+      "takeaway": "Én god, men lang, video jeg anbefaler",
+      "prov": "Andrej Karpathy — «Deep Dive into LLMs like ChatGPT», feb. 2025.",
+      "dybde": "medium",
+      "lenke": "https://youtu.be/7xTGNNLPyMI",
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "b92006b",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.2",
+          "seksjonTittel": "Modellen = parametre"
+        },
+        {
+          "beatId": "bda2ebe",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.3",
+          "seksjonTittel": "Modelltrening"
+        }
+      ]
+    },
+    {
+      "nr": 2,
+      "id": "utnytt-prefix-cache",
+      "type": "tips",
+      "tittel": "Utnytt prefix cache",
+      "takeaway": "Tar du neste tur innenfor cache-tiden, sparer du tid og penger.",
+      "prov": "Endrer du starten på konteksten treffer du ikke cachen.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "b035e73",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.5",
+          "seksjonTittel": "Egenskap: tilstandsløs"
+        },
+        {
+          "beatId": "b3ca574",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.5",
+          "seksjonTittel": "Egenskap: tilstandsløs"
+        }
+      ]
+    },
+    {
+      "nr": 3,
+      "id": "modellen-hallusinerer-alltid",
+      "type": "tips",
+      "tittel": "Husk at modellen alltid «hallusinerer»",
+      "takeaway": "Plausibelt betyr ikke riktig.",
+      "prov": "Er det viktig, kontroller svaret!",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "b1da60b",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.7",
+          "seksjonTittel": "Egenskap: hallusinerende"
+        }
+      ]
+    },
+    {
+      "nr": 4,
+      "id": "oftere-enig-enn-du-har-rett",
+      "type": "tips",
+      "tittel": "Modellen er oftere enig med deg enn du har rett",
+      "takeaway": "Den er trent for å gjøre deg fornøyd. Du må aktivt motarbeide enighet.",
+      "prov": "Ikke «hva tenker du om løsningen min?», men «kritisér denne løsningen».",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "be2d145",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.8",
+          "seksjonTittel": "Egenskap: sykofantisk"
+        }
+      ]
+    },
+    {
+      "nr": 5,
+      "id": "match-modellen-til-oppgaven",
+      "type": "tips",
+      "tittel": "Match modellen til oppgaven",
+      "takeaway": "Agenten har mange ulike oppgaver: redigering, second opinion og review kan dra nyttet av ulike modeller.",
+      "prov": "Kjør `/subagents` i Copilot CLI og se hva teamet bak har valgt som standard.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 46,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/046-match-model-to-task/"
+      },
+      "forekomster": [
+        {
+          "beatId": "ba4bd8f",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.9",
+          "seksjonTittel": "Parametrisk kunnskap"
+        },
+        {
+          "beatId": "bd222e4",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.9",
+          "seksjonTittel": "Parametrisk kunnskap"
+        }
+      ]
+    },
+    {
+      "nr": 6,
+      "id": "skru-pa-tenke-bryteren",
+      "type": "tips",
+      "tittel": "Skru på tenke-bryteren",
+      "takeaway": "low → medium → high.\nEffort kan bety mer enn modellstørrelse.",
+      "prov": "Lav for enkle redigeringer, høy for krevende debugging og review.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 47,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/047-reasoning-effort-dial/"
+      },
+      "forekomster": [
+        {
+          "beatId": "ba39994",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.10",
+          "seksjonTittel": "Tenking er en bryter"
+        },
+        {
+          "beatId": "b57731c",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.10",
+          "seksjonTittel": "Tenking er en bryter"
+        }
+      ]
+    },
+    {
+      "nr": 7,
+      "id": "vit-hva-agenten-koster",
+      "type": "tips",
+      "tittel": "Vit hva agenten din koster",
+      "takeaway": "Tokens koster, det finnes verktøy som kan gi deg mer innsikt.",
+      "prov": "`ccusage` – forbruk per modell, per kodeagent, input og output og cached",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 41,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/041-know-what-your-agent-costs/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b7e1e22",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.11",
+          "seksjonTittel": "Kostnader"
+        },
+        {
+          "beatId": "bb9fc3e",
+          "del": 1,
+          "delTittel": "Modellene i kjernen",
+          "seksjon": "S1.12",
+          "seksjonTittel": "Aktskifte"
+        }
+      ]
+    },
+    {
+      "nr": 8,
+      "id": "storre-vindu-er-ikke-smartere",
+      "type": "tips",
+      "tittel": "Større kontekstvindu er ikke smartere",
+      "takeaway": "Kontekstvinduet er kapasitet, ikke intelligens. Effektivt kontekstvindu er mindre enn maks-størrelsen. Og hele konteksten er med hver turn.",
+      "prov": "Ikke bruk et stort kontekstvindu når du ikke trenger det.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 48,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/048-context-window-selection/"
+      },
+      "forekomster": [
+        {
+          "beatId": "be1a6c6",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.5",
+          "seksjonTittel": "Smartsonen"
+        }
+      ]
+    },
+    {
+      "nr": 9,
+      "id": "korte-fokuserte-sesjoner",
+      "type": "tips",
+      "tittel": "Korte, fokuserte sesjoner",
+      "takeaway": "Siden mer kontekst både koster tokens og oppmerksomhet så unngå å blande oppgaver.",
+      "prov": "Én oppgave per sesjon: Ferdig? Ny sesjon.",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 17,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/017-short-focused-sessions/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b601e27",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.5",
+          "seksjonTittel": "Smartsonen"
+        }
+      ]
+    },
+    {
+      "nr": 10,
+      "id": "se-opp-for-sesjonsdrift",
+      "type": "tips",
+      "tittel": "Se opp for sesjonsdrift",
+      "takeaway": "Modellen sier den er ferdig ... men om den faktisk er ferdig er slett ikke sikkert.",
+      "prov": "Start ny sesjon!",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 37,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/037-session-drift/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bfd8b85",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.6",
+          "seksjonTittel": "Drift"
+        }
+      ]
+    },
+    {
+      "nr": 11,
+      "id": "ikke-korriger-igjen-og-igjen",
+      "type": "tips",
+      "tittel": "Ikke korrigér igjen og igjen",
+      "takeaway": "Hver retting blir liggende i konteksten og stjeler oppmerksomhet.",
+      "prov": "Start en ny sesjon når agenten gjør samme feil et par ganger.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "b1a3892",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.6",
+          "seksjonTittel": "Drift"
+        }
+      ]
+    },
+    {
+      "nr": 12,
+      "id": "mestre-overleveringen",
+      "type": "tips",
+      "tittel": "Mestre overleveringen",
+      "takeaway": "Komprimering er lossy. Autokomprimering gir deg ikke kontroll. I en styrt handoff velger du hva som overlever.",
+      "prov": "Be om en HANDOFF.md: status, beslutninger, blindveier, neste steg.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 49,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/049-master-the-handoff/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bf3db75",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.7",
+          "seksjonTittel": "Komprimering og handoff"
+        },
+        {
+          "beatId": "b9c29a7",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.7",
+          "seksjonTittel": "Komprimering og handoff"
+        }
+      ]
+    },
+    {
+      "nr": 13,
+      "id": "second-opinion-fra-fersk-agent",
+      "type": "tips",
+      "tittel": "Hent en second opinion fra en fersk agent",
+      "takeaway": "En sesjon som har jobbet lenge, er ankret i løsningen sin.",
+      "prov": "Få en second opinion i en ny sesjon",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 19,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/019-second-opinion-fresh-agent/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b61bc99",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.8",
+          "seksjonTittel": "Nye øyne"
+        }
+      ]
+    },
+    {
+      "nr": 14,
+      "id": "vaer-obs-pa-in-context-learning",
+      "type": "tips",
+      "tittel": "Vær oppmerksom på _in-context learning_",
+      "takeaway": "Modellen tar etter mønstrene den ser, både de gode og de dårlige. Det gjør det vanskeligere å bytte kodestil.",
+      "prov": "Gi modellen et stjerneeksempel.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "bdb21fd",
+          "del": 2,
+          "delTittel": "Sesjonen og kontekstvinduet",
+          "seksjon": "S2.4",
+          "seksjonTittel": "Kontekstuell kunnskap"
+        }
+      ]
+    },
+    {
+      "nr": 15,
+      "id": "terminalen-har-fatt-en-agent",
+      "type": "tips",
+      "tittel": "Kode-agenter i terminalen _rocks_!",
+      "takeaway": "Agentene som lever i terminalen er de mest sofistikerte.",
+      "prov": "Om du ikke allerede er der: prøv en CLI-agent i dag!",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 6,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/006-copilot-cli/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b103d60",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.2",
+          "seksjonTittel": "Agent"
+        }
+      ]
+    },
+    {
+      "nr": 16,
+      "id": "mot-opencode",
+      "type": "tips",
+      "tittel": "Møt OpenCode",
+      "takeaway": "Harnesset er et valg, uavhengig av modell.\n\nOpenCode:\n· Åpen kildekode(!)\n· 75+ leverandører\n· Portabilitet!",
+      "prov": "Prøv et harness du kan ta med deg mellom leverandører",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 21,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/021-opencode-provider-agnostic-agent/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b784e4a",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.2",
+          "seksjonTittel": "Agent"
+        },
+        {
+          "beatId": "be0ad06",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.2",
+          "seksjonTittel": "Agent"
+        }
+      ]
+    },
+    {
+      "nr": 17,
+      "id": "gi-agenten-hukommelse",
+      "type": "tips",
+      "tittel": "Onboard agenten din",
+      "takeaway": "AGENTS.md er prosjektets stående brief. Lastes tidlig, ligger der hele sesjonen.",
+      "prov": "Legg inn konvensjoner, det uidiomatiske, og tabbene ...",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 1,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/001-copilot-instructions/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b5b1467",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.3",
+          "seksjonTittel": "Instruksjonsfila"
+        },
+        {
+          "beatId": "bd83175",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.3",
+          "seksjonTittel": "Instruksjonsfila"
+        },
+        {
+          "beatId": "b7145cf",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.3",
+          "seksjonTittel": "Instruksjonsfila"
+        }
+      ]
+    },
+    {
+      "nr": 18,
+      "id": "hver-ai-feil-er-en-regel",
+      "type": "tips",
+      "tittel": "Hver AI-feil er en instruksjon?",
+      "takeaway": "Samme feil to ganger? Da er det kanskje instruksjonsfila som mangler en linje.",
+      "prov": "Legg inn en instruksjon når noe går galt.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 2,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/002-every-mistake-is-a-rule/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b27c978",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.3",
+          "seksjonTittel": "Instruksjonsfila"
+        }
+      ]
+    },
+    {
+      "nr": 19,
+      "id": "hva-horer-hjemme-i-instruksjonsfila",
+      "type": "tips",
+      "tittel": "Hva hører hjemme i instruksjonsfila?",
+      "takeaway": "Fila betaler kontekst-husleie for hver eneste linje.",
+      "prov": "«Ville agenten skjønt dette av å lese koden selv?»\nJa → stryk.\nNei → behold.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 5,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/005-instruction-files-less-is-more/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bee9e14",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.3",
+          "seksjonTittel": "Instruksjonsfila"
+        }
+      ]
+    },
+    {
+      "nr": 20,
+      "id": "copilot-betingede-instruksjonsfiler",
+      "type": "tips",
+      "tittel": "GitHub Copilot har betingede instruksjonsfiler",
+      "takeaway": "Eksempel: `applyTo: **/*.py`",
+      "prov": "Les deg opp på ditt harness",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "b22713b",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.3",
+          "seksjonTittel": "Instruksjonsfila"
+        }
+      ]
+    },
+    {
+      "nr": 21,
+      "id": "tilrettelegg-for-god-ax",
+      "type": "tips",
+      "tittel": "Tilrettelegg for god AX",
+      "takeaway": "Agent experience – hvor godt miljøet er rigget for at en agent skal jobbe godt.\n· Instruksjonsfiler\n· Kjørbare sjekker\n· Ryddige feilmeldinger\n· God struktur",
+      "prov": "Investér i AX!",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": null,
+      "forekomster": [
+        {
+          "beatId": "b633103",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.4",
+          "seksjonTittel": "Agent Experience"
+        }
+      ]
+    },
+    {
+      "nr": 22,
+      "id": "lim-inn-feilmeldingen",
+      "type": "tips",
+      "tittel": "Lim inn feilmeldingen",
+      "takeaway": "Hele stack tracen – primærkilden, ikke din gjenfortelling av den.",
+      "prov": "Be om forklaring før fiks. (Skjønner du årsaken, kan du ta dypere grep.)",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 4,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/004-paste-the-error/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b2ce3dc",
+          "del": 3,
+          "delTittel": "Agenter og hukommelse",
+          "seksjon": "S3.5",
+          "seksjonTittel": "Filsystemet: primær og sekundær"
+        }
+      ]
+    },
+    {
+      "nr": 23,
+      "id": "commit-for-du-slipper-agenten-los",
+      "type": "tips",
+      "tittel": "Commit før du slipper agenten løs",
+      "takeaway": "Lagre spillet før du møter bossen.",
+      "prov": "Gjør `git commit` før du slipper agenten løs.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 18,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/018-commit-before-ai/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bf09568",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.1",
+          "seksjonTittel": "Verktøy og miljø"
+        }
+      ]
+    },
+    {
+      "nr": 24,
+      "id": "det-agenten-allerede-kan",
+      "type": "tips",
+      "tittel": "Det agenten allerede kan",
+      "takeaway": "Det er mer i harnesset enn de fleste vet om.",
+      "prov": "\"List your built-in tools\"",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 11,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/011-built-in-tools/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b48dbd0",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.1",
+          "seksjonTittel": "Verktøy og miljø"
+        },
+        {
+          "beatId": "bf3adcc",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.1",
+          "seksjonTittel": "Verktøy og miljø"
+        },
+        {
+          "beatId": "b04a645",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.1",
+          "seksjonTittel": "Verktøy og miljø"
+        }
+      ]
+    },
+    {
+      "nr": 25,
+      "id": "cli-verktoyene-dine-er-allerede-ai-verktoy",
+      "type": "tips",
+      "tittel": "CLI-verktøyene dine er allerede AI-verktøy",
+      "takeaway": "Kommandolinje-verktøy du allerede har på maskinen er gull for agenten din.\n\nModellen har ofte parametrisk kunnskap om bruken.",
+      "prov": null,
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 14,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/014-cli-tools-are-ai-tools/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b851d70",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.1",
+          "seksjonTittel": "Verktøy og miljø"
+        },
+        {
+          "beatId": "b6b5bf7",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.1",
+          "seksjonTittel": "Verktøy og miljø"
+        }
+      ]
+    },
+    {
+      "nr": 26,
+      "id": "script-for-repeterbare-oppgaver",
+      "type": "tips",
+      "tittel": "Script for repeterbare oppgaver",
+      "takeaway": "Gjør deterministiske oppgaver forutsigbare med skript, slik at agenten ikke improviserer på det som skal være repeterbart.",
+      "prov": null,
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 22,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/022-deterministic-scripts/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bf5e6b3",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.2",
+          "seksjonTittel": "Deterministiske verktøy"
+        }
+      ]
+    },
+    {
+      "nr": 27,
+      "id": "skriv-script-som-veileder-agenten",
+      "type": "tips",
+      "tittel": "Skriv script som veileder agenten",
+      "takeaway": "La output være konsis, presis, og gi hint om videre aksjon.",
+      "prov": "Se på output som agenten vil få:\n- Er det nyttig eller er det støy?\n- Veiledes agenten videre?",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 23,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/023-script-output-for-agents/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b441265",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.2",
+          "seksjonTittel": "Deterministiske verktøy"
+        },
+        {
+          "beatId": "bba1b0b",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.2",
+          "seksjonTittel": "Deterministiske verktøy"
+        }
+      ]
+    },
+    {
+      "nr": 28,
+      "id": "automatiser-det-kjedelige-med-hooks",
+      "type": "tips",
+      "tittel": "Automatiser det kjedelige med hooks",
+      "takeaway": "Instruksjoner er veiledning ... vil du at noe skal skje konsekvent, prøv Hooks.",
+      "prov": "Prøv linting etter hver filendring.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 24,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/024-hooks-automate-agent-workflow/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bb35ec2",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.3",
+          "seksjonTittel": "Hooks"
+        }
+      ]
+    },
+    {
+      "nr": 29,
+      "id": "lei-av-tillatelses-sporsmalene",
+      "type": "tips",
+      "tittel": "Lei av tillatelses-spørsmålene?",
+      "takeaway": "Å kuratere en fil med hvilke handlinger som er tillatt er litt jobb, men det vil fort spares inn av mer flyt i arbeidet.",
+      "prov": "Eller prøv auto-mode.",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 32,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/032-permission-prompts/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b86cb9c",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.4",
+          "seksjonTittel": "Tillatelser"
+        },
+        {
+          "beatId": "baf22dd",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.4",
+          "seksjonTittel": "Tillatelser"
+        }
+      ]
+    },
+    {
+      "nr": 30,
+      "id": "bruk-agenten-som-sparringpartner-plan-mode",
+      "type": "tips",
+      "tittel": "Bruk agenten som sparringpartner – plan mode",
+      "takeaway": "Agenten leser og diskuterer, men skal ikke endre.\n\nUklarhetene du finner i plan-fasen er billige, i forhold til å rydde opp etterpå.",
+      "prov": null,
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 3,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/003-sparring-partner-plan-mode/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bfefd3e",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.4",
+          "seksjonTittel": "Tillatelser"
+        }
+      ]
+    },
+    {
+      "nr": 31,
+      "id": "les-dette-for-du-kobler-agenter-pa-ci-cd",
+      "type": "tips",
+      "tittel": "Tenk deg om før du kobler agenter på CI/CD",
+      "takeaway": "AI-agent med for mye rettigheter fulgte instruksjoner i dataene.\n(I konteksten er det ikke tilstrekkelig skille mellom instruksjoner og data.)",
+      "prov": "Ikke gi automatiserte agenter mer tilgang enn de trenger.",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 26,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/026-clinejection-attack/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b6212df",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.5",
+          "seksjonTittel": "Sandbox og Clinejection"
+        }
+      ]
+    },
+    {
+      "nr": 32,
+      "id": "mcp-usb-c-for-ai-verktoy",
+      "type": "tips",
+      "tittel": "MCP – USB-C for AI-verktøy",
+      "takeaway": "Model Context Protocol kan eksponere verktøy til AI over nett.",
+      "prov": "Prøv f eks Context7-MCP for å gi agenten din enkel tilgang til dokumentasjon.",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 12,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/012-what-is-mcp/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b4a22a2",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.6",
+          "seksjonTittel": "Model Context Protocol"
+        }
+      ]
+    },
+    {
+      "nr": 33,
+      "id": "gi-agenten-en-nettleser",
+      "type": "tips",
+      "tittel": "Gi agenten en nettleser",
+      "takeaway": "Gi agenten mulighet til å se hva den jobber med gjennom nettleser-tilgang.",
+      "prov": "F eks Chrome DevTools MCP.",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 13,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/013-browser-mcp/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b7f84fa",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.6",
+          "seksjonTittel": "Model Context Protocol"
+        }
+      ]
+    },
+    {
+      "nr": 34,
+      "id": "mcp-servere-spiser-kontekstvinduet",
+      "type": "tips",
+      "tittel": "MCP-servere spiser kontekstvinduet",
+      "takeaway": "Hver MCP-server legger til innhold i konteksten. Noen har veldig mange verktøy som tar stor plass etter at du tar dem i bruk.",
+      "prov": "Ikke kople til MCP'er du ikke trenger.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 15,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/015-mcp-context-cost/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b284d44",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.6",
+          "seksjonTittel": "Model Context Protocol"
+        },
+        {
+          "beatId": "b9895cb",
+          "del": 4,
+          "delTittel": "Verktøy og miljø",
+          "seksjon": "S4.6",
+          "seksjonTittel": "Model Context Protocol"
+        }
+      ]
+    },
+    {
+      "nr": 35,
+      "id": "subagenter-er-standardmonster-na",
+      "type": "tips",
+      "tittel": "Subagenter er standard",
+      "takeaway": "En fersk agent for avgrenset deloppgave;\n– eget kontekstvindu\n– bare resultatet returneres\n– flere kan jobbe i parallell.",
+      "prov": "«Bruk subagenter til å finne alle stedene vi håndterer autentiseringsfeil.»",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 27,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/027-subagents-standard-pattern/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b19fb9f",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.1",
+          "seksjonTittel": "Subagenter"
+        }
+      ]
+    },
+    {
+      "nr": 36,
+      "id": "advisor-monsteret",
+      "type": "tips",
+      "tittel": "Advisor pattern",
+      "takeaway": "Liten modell utfører, stor modell kalles på når ting blir vanskelig.",
+      "prov": "`/advisor` (i Claude)",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 42,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/042-advisor-pattern/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b8c899f",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.1",
+          "seksjonTittel": "Subagenter"
+        },
+        {
+          "beatId": "b46b6ac",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.1",
+          "seksjonTittel": "Subagenter"
+        }
+      ]
+    },
+    {
+      "nr": 37,
+      "id": "laer-agenten-repeterbare-skills",
+      "type": "tips",
+      "tittel": "Lær agenten repeterbare skills",
+      "takeaway": "SKILL.md:\n- en konkret oppgave\n- lastes først når den trengs",
+      "prov": "Ta en oppgave du gjør ofte og lag en skill av det.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 8,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/008-agent-skills-intro/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b294305",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        },
+        {
+          "beatId": "b5828f2",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        },
+        {
+          "beatId": "bfd7dc4",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        }
+      ]
+    },
+    {
+      "nr": 38,
+      "id": "skriv-din-forste-skill",
+      "type": "tips",
+      "tittel": "Skriv din første skill",
+      "takeaway": "Be agenten lage utkast til en skill fra en vellykket økt.",
+      "prov": "«Skriv en SKILL.md for det vi nettopp gjorde.»",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 43,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/043-how-to-write-your-first-skill/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bf7cf90",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        }
+      ]
+    },
+    {
+      "nr": 39,
+      "id": "nar-skillsene-ikke-trigger",
+      "type": "tips",
+      "tittel": "Når skillsene ikke trigger",
+      "takeaway": "Description-feltet er viktig!\nVag description = tapte aktiveringer.",
+      "prov": "Test at skill'en trigger når den skal",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 10,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/010-skills-reliability/"
+      },
+      "forekomster": [
+        {
+          "beatId": "ba20ed0",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        }
+      ]
+    },
+    {
+      "nr": 40,
+      "id": "hvor-skal-skillsene-ligge",
+      "type": "tips",
+      "tittel": "Hvor skal skillsene ligge?",
+      "takeaway": "`.claude/skills/`",
+      "prov": "Virker i Copilot CLI, Claude Code og OpenCode.",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 9,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/009-skill-placement/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b575b20",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        },
+        {
+          "beatId": "bb9549d",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        }
+      ]
+    },
+    {
+      "nr": 41,
+      "id": "gi-agenten-alle-repoene-samtidig",
+      "type": "tips",
+      "tittel": "Gi agenten alle repoene samtidig",
+      "takeaway": "Klon relaterte repo i én foreldremappe og start agenten der.",
+      "prov": "Legg en AGENTS.md i foreldremappa som forklarer hvordan repoene henger sammen.",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 30,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/030-meta-repo/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bd59083",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.2",
+          "seksjonTittel": "Skills"
+        }
+      ]
+    },
+    {
+      "nr": 42,
+      "id": "bli-grillet-av-den-omvendte-gummianda",
+      "type": "tips",
+      "tittel": "Bli grillet av den omvendte gummianda",
+      "takeaway": "Hull og antakelser kan ryddes i mens de er billige å fikse.",
+      "prov": "«Intervju meg nådeløst om spec'en, ett spørsmål om gangen.»",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 36,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/036-get-grilled-by-the-inverse-rubber-duck/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b4d440a",
+          "del": 5,
+          "delTittel": "Mer context engineering",
+          "seksjon": "S5.3",
+          "seksjonTittel": "Spec"
+        }
+      ]
+    },
+    {
+      "nr": 43,
+      "id": "spike-forst-bygg-etterpa",
+      "type": "tips",
+      "tittel": "Spike først, bygg etterpå",
+      "takeaway": "Første pass er en _spike_ – bruk-og-kast-kode for å lære.\nBehold lærdommen, kast koden, bygg på nytt.",
+      "prov": "Neste ikke-trivielle oppgave:\nTimebox en spike. Trekk ut det du lærte,\n`git stash`, og bygg i en ny sesjon.",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 35,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/035-spike-first-build-second/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b9bf945",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.2",
+          "seksjonTittel": "Prototyping"
+        },
+        {
+          "beatId": "b33bc7f",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.2",
+          "seksjonTittel": "Prototyping"
+        }
+      ]
+    },
+    {
+      "nr": 44,
+      "id": "utforsk-for-du-endrer",
+      "type": "tips",
+      "tittel": "Utforsk før du endrer ukjent kode",
+      "takeaway": "La agenten være en researchassistent",
+      "prov": "Fem minutter med spørsmål før første endring.",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 16,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/016-explore-before-you-edit/"
+      },
+      "forekomster": [
+        {
+          "beatId": "ba08dd4",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.2",
+          "seksjonTittel": "Prototyping"
+        },
+        {
+          "beatId": "bcc4422",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.2",
+          "seksjonTittel": "Prototyping"
+        }
+      ]
+    },
+    {
+      "nr": 45,
+      "id": "se-koden-fra-ulike-perspektiv",
+      "type": "tips",
+      "tittel": "Se koden fra ulike perspektiv",
+      "takeaway": "Agenter gitt ulike perspektiv henter opp ulik parametrisk kunnskap.",
+      "prov": "En review-skill for hvert perspektiv du er opptatt av?",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 31,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/031-review-lenses/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bee8b3a",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.3",
+          "seksjonTittel": "Review"
+        },
+        {
+          "beatId": "b4d0b65",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.3",
+          "seksjonTittel": "Review"
+        }
+      ]
+    },
+    {
+      "nr": 46,
+      "id": "be-om-en-webside",
+      "type": "tips",
+      "tittel": "Be om en webside, ikke bare tekst",
+      "takeaway": "Gjør utforskings- og reviewfunn til en leseflate du kan navigere, filtrere og undersøke.",
+      "prov": "«Lag en interaktiv HTML-side med funnene.»",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 34,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/034-ask-for-html/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b1396f8",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.3",
+          "seksjonTittel": "Review"
+        },
+        {
+          "beatId": "ba1d945",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.3",
+          "seksjonTittel": "Review"
+        }
+      ]
+    },
+    {
+      "nr": 47,
+      "id": "la-copilot-reviewe-hver-pr-automatisk",
+      "type": "tips",
+      "tittel": "La Copilot reviewe hver PR – automatisk",
+      "takeaway": "Frigjør menneskelig PR-review til det større bildet.",
+      "prov": null,
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 7,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/007-automatic-code-review/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bf45cec",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.3",
+          "seksjonTittel": "Review"
+        }
+      ]
+    },
+    {
+      "nr": 48,
+      "id": "styr-agenten-fra-mobilen",
+      "type": "tips",
+      "tittel": "Styr agenten fra mobilen",
+      "takeaway": "Agenten trenger ikke deg over skulderen. Godkjenn endringer, send prompts og sjekk resultater fra telefonen – den kjører videre lokalt.",
+      "prov": "Copilot CLI: `/remote on`\nClaude Code: `/remote-control`\n(Maskinen må stå på – låst, selvsagt.)",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 44,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/044-remote-control-from-phone/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bc4bddd",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.4",
+          "seksjonTittel": "Deg i loopen – eller ikke"
+        }
+      ]
+    },
+    {
+      "nr": 49,
+      "id": "gi-agentene-egne-arbeidsomrader",
+      "type": "tips",
+      "tittel": "Gi agentene egne arbeidsområder",
+      "takeaway": "Flere agenter i samme repo? `git worktree` gir isolerte arbeidskopier.",
+      "prov": null,
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 20,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/020-superset-parallel-workspaces/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b7aae2f",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.4",
+          "seksjonTittel": "Deg i loopen – eller ikke"
+        }
+      ]
+    },
+    {
+      "nr": 50,
+      "id": "gi-agenten-mulighet-til-a-sjekke-eget-arbeid",
+      "type": "tips",
+      "tittel": "Gi agenten mulighet til å sjekke eget arbeid",
+      "takeaway": "Uten verifikasjonsverktøy er du eneste feedback-loop.",
+      "prov": "Gi agenten tester, linting, statisk analyse, a11y...",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 33,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/033-agent-verification/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bddd095",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.5",
+          "seksjonTittel": "Loops som lukker seg"
+        }
+      ]
+    },
+    {
+      "nr": 51,
+      "id": "bygger-vi-en-fabrikk",
+      "type": "tips",
+      "tittel": "Bygger vi en fabrikk?",
+      "takeaway": "Vi har blitt lovet fabrikk før ...\nMen er flaskehalsen å produsere kode?",
+      "prov": "Diskutér med teamet: \"fabrikken\" produserer mer – er «mer» det vi trenger?",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 28,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/028-factory-model/"
+      },
+      "forekomster": [
+        {
+          "beatId": "bea1858",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.5",
+          "seksjonTittel": "Loops som lukker seg"
+        },
+        {
+          "beatId": "b7cf668",
+          "del": 6,
+          "delTittel": "Arbeidsflyt",
+          "seksjon": "S6.5",
+          "seksjonTittel": "Loops som lukker seg"
+        }
+      ]
+    },
+    {
+      "nr": 52,
+      "id": "den-skjulte-kostnaden-forstaelsesgjeld",
+      "type": "tips",
+      "tittel": "Den skjulte kostnaden – forståelsesgjeld",
+      "takeaway": "Testene er grønne, men ingen forstår hvordan koden virker ...",
+      "prov": "Bygg opp igjen forståelsen: «Forklar nøkkelbeslutningene.»",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 29,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/029-comprehension-debt/"
+      },
+      "forekomster": [
+        {
+          "beatId": "baf2ecc",
+          "del": 7,
+          "delTittel": "Avslutning",
+          "seksjon": "S7.2",
+          "seksjonTittel": "De ærlige kostnadene"
+        }
+      ]
+    },
+    {
+      "nr": 53,
+      "id": "ferdighetene-dine-forsvant-ikke-de-flyttet-seg",
+      "type": "tips",
+      "tittel": "Et skift i vekting av ferdighetene dine",
+      "takeaway": "Mindre syntaks og tasting. Mer arkitektur, mer dømmekraft.",
+      "prov": "Neste review, spør deg selv: er dette riktig design?",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 25,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/025-engineering-skills-shifted/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b843fec",
+          "del": 7,
+          "delTittel": "Avslutning",
+          "seksjon": "S7.2",
+          "seksjonTittel": "De ærlige kostnadene"
+        }
+      ]
+    },
+    {
+      "nr": 54,
+      "id": "hold-deg-unna-genie-tjaeregropa",
+      "type": "tips",
+      "tittel": "Hold deg unna genie-tjæregropa",
+      "takeaway": "Kent Beck: to akser – **features** (virker det?) og **fleksibilitet** (kan vi endre det trygt?). Agentene dytter deg ned og til venstre.\nGitClear: refaktorering falt fra 25 % til under 10 % av endringene.",
+      "prov": "Se på PR-historikken den siste måneden: hvor mye er nye features, hvor mye er opprydding? Ratioen er fleksibilitets-signalet ditt.",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 39,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/039-staying-out-of-the-genie-tarpit/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b089b06",
+          "del": 7,
+          "delTittel": "Avslutning",
+          "seksjon": "S7.2",
+          "seksjonTittel": "De ærlige kostnadene"
+        }
+      ]
+    },
+    {
+      "nr": 55,
+      "id": "ikke-vent-pa-et-harness-team",
+      "type": "tips",
+      "tittel": "Ikke vent på et 'harness-team'",
+      "takeaway": "Harnesset formes av **deres** feilhistorikk – det kan ikke lastes ned som en golden config.\nEt sentralt harness-team gjentar DevOps-team-tabben: siloen bygges opp igjen.",
+      "prov": "Åpne teamets AGENTS.md: kan hver linje spores til noe som gikk galt? Er den tynn, legg inn én regel fra ukas rot – del utgangspunkter, ikke eierskap.",
+      "dybde": "medium",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 45,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/045-dont-wait-for-harness-team/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b7ef8d4",
+          "del": 7,
+          "delTittel": "Avslutning",
+          "seksjon": "S7.3",
+          "seksjonTittel": "Teamet"
+        }
+      ]
+    },
+    {
+      "nr": 56,
+      "id": "folg-med-pa-verktoyet-ditt",
+      "type": "tips",
+      "tittel": "Følg med på verktøyet ditt",
+      "takeaway": "Verktøyene shipper ukentlig. Gapet mellom hva verktøyet kan og hva du vet det kan, vokser fort.",
+      "prov": "Ti minutter i changeloggen hver mandag. Notér én ting du ikke visste fantes.",
+      "dybde": "lyn",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 40,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/040-keep-up-with-your-tool/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b85c715",
+          "del": 7,
+          "delTittel": "Avslutning",
+          "seksjon": "S7.4",
+          "seksjonTittel": "Å holde følge"
+        }
+      ]
+    },
+    {
+      "nr": 57,
+      "id": "skriv-ned-det-du-opplever",
+      "type": "tips",
+      "tittel": "Skriv ned det du opplever",
+      "takeaway": "Skrivingen er læringen: å skrive tvinger fram jobben – lese, prøve, faktasjekke.\nAI tar det tidkrevende – kildene, verifiseringen, utkastet. Dømmekraften er fortsatt din.",
+      "prov": "Sett av ti virkedager. Noen setninger hver dag om det du opplever, omtrent hundre ord. Du trenger ikke dele det med noen – dette er for deg.",
+      "dybde": "dyp",
+      "lenke": null,
+      "bilde": null,
+      "logo": null,
+      "original": {
+        "nummer": 50,
+        "url": "https://kjetiljd.github.io/ai-for-coding/tips/050-the-writing-is-the-learning/"
+      },
+      "forekomster": [
+        {
+          "beatId": "b93df40",
+          "del": 7,
+          "delTittel": "Avslutning",
+          "seksjon": "S7.5",
+          "seksjonTittel": "Et siste tips"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{{- define "main" }}
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- with .Content }}
+  <div class="post-description">{{ . }}</div>
+  {{- end }}
+</header>
+
+{{- $data := hugo.Data.tips }}
+
+<div class="jz-meta">
+  {{ len $data.tips }} tips
+</div>
+
+<ol class="jz-list">
+  {{- range $data.tips }}
+  <li class="jz-tip" id="tip-{{ .nr }}">
+    <div class="jz-num">{{ .nr }}</div>
+    <div class="jz-body">
+      <h2 class="jz-title">{{ .tittel }}</h2>
+      {{- with .takeaway }}
+      <p class="jz-takeaway">{{ . }}</p>
+      {{- end }}
+      {{- with .prov }}
+      <p class="jz-prov"><span class="jz-label">Prøv</span>{{ . }}</p>
+      {{- end }}
+      <div class="jz-links">
+        {{- with .lenke }}
+        <a class="jz-link jz-link--ext" href="{{ . }}" target="_blank" rel="noopener">Lenke ↗</a>
+        {{- end }}
+        {{- with .original }}
+        <a class="jz-link jz-link--orig" href="{{ .url }}">Originaltips #{{ .nummer }} →</a>
+        {{- end }}
+      </div>
+    </div>
+  </li>
+  {{- end }}
+</ol>
+
+<style>
+  .jz-meta {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 0.5rem;
+  }
+  .jz-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    counter-reset: none;
+  }
+  .jz-tip {
+    display: flex;
+    gap: 1.1rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid var(--border);
+    scroll-margin-top: 5rem;
+  }
+  .jz-tip:hover .jz-num {
+    color: var(--accent);
+    border-color: var(--border-strong);
+  }
+  .jz-tip:hover .jz-title {
+    color: var(--accent);
+  }
+  .jz-num {
+    flex: 0 0 auto;
+    width: 2.6rem;
+    height: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: color var(--transition), border-color var(--transition);
+  }
+  .jz-body {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+  .jz-title {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: var(--text-primary);
+    margin: 0 0 0.35em;
+    transition: color var(--transition);
+  }
+  .jz-takeaway {
+    font-family: var(--font-body);
+    font-size: 1.05rem;
+    line-height: 1.55;
+    color: var(--text-primary);
+    margin: 0 0 0.4em;
+  }
+  .jz-prov {
+    font-family: var(--font-body);
+    font-size: 0.98rem;
+    line-height: 1.55;
+    color: var(--text-secondary);
+    margin: 0 0 0.6em;
+  }
+  .jz-label {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-glow);
+    border-radius: 3px;
+    padding: 0.1em 0.5em;
+    margin-right: 0.55em;
+    vertical-align: 0.1em;
+  }
+  .jz-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.1rem;
+  }
+  .jz-link {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--accent) !important;
+    border-bottom: 1px solid transparent;
+    transition: color var(--transition), border-color var(--transition);
+  }
+  .jz-link:hover {
+    color: var(--accent-bright) !important;
+    border-color: var(--accent-bright);
+  }
+  .jz-link--ext {
+    color: var(--text-secondary) !important;
+  }
+  .jz-link--ext:hover {
+    color: var(--accent-bright) !important;
+  }
+  @media (max-width: 500px) {
+    .jz-tip { gap: 0.75rem; }
+    .jz-num { width: 2.1rem; height: 2.1rem; font-size: 0.85rem; }
+    .jz-title { font-size: 1.15rem; }
+  }
+</style>
+
+{{- end }}
